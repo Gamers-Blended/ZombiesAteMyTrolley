@@ -8,9 +8,9 @@ if(instance_exists(oShoppingList)){
 		var key = ds_list_find_value(global.ShopListItems, i);
 		var value = ds_map_find_value(global.shopList, key);
 		
-		draw_sprite(object_get_sprite(key),0,32,128+20*i);
+		draw_sprite(object_get_sprite(key),0,x+32,y+128+20*i);
 		//draw_text(64,128+20*i,": "+string(value));
-		draw_text_transformed(64,128+20*i,": "+string(value), 1.5, 1.5,0);
+		draw_text_transformed(x+64,y+128+20*i,": "+string(value), 1.5, 1.5,0);
 	}
 }
 

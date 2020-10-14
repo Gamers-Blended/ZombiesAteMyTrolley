@@ -16,3 +16,6 @@ enum item{
 itemSprite[item.listed] = sItem;
 itemSprite[item.irrelvant] = sIrrelvant;
 */
+
+
+global.levelGrv = 0.3;

@@ -1,8 +1,8 @@
-vsp = vsp + grv;
+vsp = vsp + global.levelGrv;
 
 
 // Don't walk off edges
-if (grounded) && (afraidofheights) && (!place_meeting(x+hsp, y+1, oGround))
+if (grounded) && (afraidofheights) && (!place_meeting(x+hsp, y+1, oWall))
 {
 	hsp = -hsp;
 }
@@ -19,9 +19,9 @@ if (place_meeting(x+hsp,y,oWall))
 x = x + hsp;
 
 // Vertical collision
-if (place_meeting(x,y+vsp,oGround))
+if (place_meeting(x,y+vsp,oWall))
 {
-	while (!place_meeting(x,y+sign(vsp),oGround))
+	while (!place_meeting(x,y+sign(vsp),oWall))
 	{
 		y = y + sign(vsp);
 	}
@@ -31,7 +31,7 @@ if (place_meeting(x,y+vsp,oGround))
 y = y + vsp; // position
 
 // Fall
-if (!place_meeting(x,y+1,oGround))
+if (!place_meeting(x,y+1,oWall))
 {
 	grounded = false;
 }

@@ -11,7 +11,7 @@
     "name": "oItem",
     "path": "objects/oItem/oItem.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,

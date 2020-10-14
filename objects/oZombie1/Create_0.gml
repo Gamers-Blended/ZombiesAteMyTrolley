@@ -1,4 +1,4 @@
 hsp = 4; // horizontal speed
 vsp = 0; // vertical speed
-grv = 0.3;
+//grv = global.levelGrv;
 walksp = 7;

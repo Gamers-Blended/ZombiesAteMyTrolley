@@ -1,6 +1,6 @@
-/*
 // Get player input
-key_left = keyboard_check(vk_left);
+// 1 when down, 0 when up
+key_left = keyboard_check(vk_left); 
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 
@@ -8,7 +8,7 @@ key_jump = keyboard_check_pressed(vk_space);
 var move = key_right - key_left;
 
 hsp = move * walksp;
-vsp = vsp + grv;
+vsp = vsp + global.levelGrv;
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
@@ -23,6 +23,7 @@ if (place_meeting(x+hsp,y,oWall))
 		x = x + sign(hsp);
 	}
 	hsp = 0;
+	show_debug_message("ASDF");
 }
 x = x + hsp;
 
@@ -34,16 +35,25 @@ if (place_meeting(x,y+vsp,oWall))
 		y = y + sign(vsp);
 	}
 	vsp = 0;
+	show_debug_message("FDSA");
 }
 
-y = y + vsp; // position
+y = y + vsp; 
+
 
 if (place_meeting(x,y+vsp,oIrrelevant) or (place_meeting(x,y+vsp,oItem)))
 {
 	counter = counter + 1;
 	
 }
-*/
+
+
+if (key_left) {
+	
+}
+
+
+/*
 
 /// @description Player Movement
 key_jump = keyboard_check_pressed(vk_space);
@@ -79,6 +89,8 @@ if (place_meeting(x,y+1,oGround)) && (key_jump) && (place_meeting(x,y+1,oItem))
 } else if (place_meeting(x,y+1,oGround)) && (key_jump)
 {
 	physics_apply_impulse(x, y, 0, -y_force)
+} else if (place_meeting(x,y+1, oDepositZone) && (key_jump)) {
+	physics_apply_impulse(x, y, 0, -y_force)
 }
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
@@ -94,6 +106,7 @@ if place_meeting(x, y + 1, oWall) && jump_buffer_count < jump_buffer
 }
 */
 
+/*
 if (place_meeting(x,y+1,oItem)) && (key_jump)
 {
 	physics_apply_impulse(x, y, 0, -y_force+1500)
@@ -106,3 +119,5 @@ if (place_meeting(x, y, oZombie1))
 {
   instance_destroy();
 }
+
+*/

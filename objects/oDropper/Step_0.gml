@@ -24,8 +24,8 @@ if num<5
 
 	// Spawns the items
 	item = instance_create_layer(xp,yp,0,makethis);
-	item.speed = 8;
-	item.direction = 270;
+	//item.speed = 8;
+	//item.direction = 270;
 }
 
 /*

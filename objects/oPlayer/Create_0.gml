@@ -1,4 +1,5 @@
 /// @description Init Vars
+/*
 // Create Fixture
 var cart_width = sprite_width / 16;
 var fixture_density = 1;
@@ -48,18 +49,15 @@ physics_fixture_set_angular_damping(fixture, fixture_angular_damping);
 physics_fixture_set_friction(fixture, fixture_friction);
 physics_fixture_bind(fixture, id);
 physics_fixture_delete(fixture);
+*/
 
-/*
 hsp = 0; // horizontal speed
 vsp = 0; // vertical speed
-grv = 0.3;
 walksp = 7;
 
 counter = 0;
 //walksp = 3;
 //hsp = walksp;
-
-*/
 
 
 // Forces and Speeds
@@ -83,7 +81,7 @@ control_jump = vk_space;
 
 // Prevent player from falling over.
 // Disable this if you're making a face dragging game.
-phy_fixed_rotation=true;
+//phy_fixed_rotation=true;
 
 // Item Tracker
 global.inventory = ds_map_create();
