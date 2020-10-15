@@ -1,5 +1,7 @@
-vsp = vsp + global.levelGrv;
+//var move = 1;
 
+vsp = vsp + global.levelGrv;
+hsp = move * walksp;
 
 // Don't walk off edges
 if (grounded) && (afraidofheights) && (!place_meeting(x+hsp, y+1, oWall))
@@ -14,7 +16,7 @@ if (place_meeting(x+hsp,y,oWall))
 	{
 		x = x + sign(hsp);
 	}
-	hsp = -hsp;
+	move = -move;
 }
 x = x + hsp;
 
@@ -40,3 +42,5 @@ else
 {
 	grounded = true;
 }
+
+event_inherited();

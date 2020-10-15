@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oKinematicParent",
-    "path": "objects/oKinematicParent/oKinematicParent.yy",
+    "name": "oCharacter",
+    "path": "objects/oCharacter/oCharacter.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

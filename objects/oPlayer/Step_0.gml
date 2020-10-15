@@ -10,6 +10,7 @@ var move = key_right - key_left;
 hsp = move * walksp;
 vsp = vsp + global.levelGrv;
 
+
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -10;
@@ -47,10 +48,7 @@ if (place_meeting(x,y+vsp,oIrrelevant) or (place_meeting(x,y+vsp,oItem)))
 	
 }
 
-
-if (key_left) {
-	
-}
+event_inherited();
 
 
 /*

@@ -1,59 +1,10 @@
 /// @description Init Vars
-/*
-// Create Fixture
-var cart_width = sprite_width / 16;
-var fixture_density = 1;
-var fixture_restitution = 0;
-var fixture_linear_damping = 1;
-var fixture_angular_damping = 0.1;
-var fixture_friction = 0.2;
-
-var fixture = physics_fixture_create();
-physics_fixture_set_polygon_shape(fixture);
-physics_fixture_add_point(fixture, -(sprite_width / 2), -(sprite_height / 2));
-physics_fixture_add_point(fixture, (-(sprite_width / 2) + cart_width), -(sprite_height / 2));
-physics_fixture_add_point(fixture, (-(sprite_width / 2) + cart_width), (sprite_height / 2));
-physics_fixture_add_point(fixture, -(sprite_width / 2), (sprite_height / 2));
-physics_fixture_set_density(fixture, fixture_density);
-physics_fixture_set_restitution(fixture, fixture_restitution);
-physics_fixture_set_linear_damping(fixture, fixture_linear_damping);
-physics_fixture_set_angular_damping(fixture, fixture_angular_damping);
-physics_fixture_set_friction(fixture, fixture_friction);
-physics_fixture_bind(fixture, id);
-physics_fixture_delete(fixture);
-
-var fixture = physics_fixture_create();
-physics_fixture_set_polygon_shape(fixture);
-physics_fixture_add_point(fixture, -(sprite_width / 2), (sprite_height / 2));
-physics_fixture_add_point(fixture, -(sprite_width / 2), ((sprite_height / 2) - cart_width));
-physics_fixture_add_point(fixture, (sprite_width / 2), ((sprite_height / 2) - cart_width));
-physics_fixture_add_point(fixture, (sprite_width / 2), (sprite_height / 2));
-physics_fixture_set_density(fixture, fixture_density);
-physics_fixture_set_restitution(fixture, fixture_restitution);
-physics_fixture_set_linear_damping(fixture, fixture_linear_damping);
-physics_fixture_set_angular_damping(fixture, fixture_angular_damping);
-physics_fixture_set_friction(fixture, fixture_friction);
-physics_fixture_bind(fixture, id);
-physics_fixture_delete(fixture);
-
-var fixture = physics_fixture_create();
-physics_fixture_set_polygon_shape(fixture);
-physics_fixture_add_point(fixture, (sprite_width / 2), -(sprite_height / 2));
-physics_fixture_add_point(fixture, (sprite_width / 2), (sprite_height / 2));
-physics_fixture_add_point(fixture, ((sprite_width / 2) - cart_width), (sprite_height / 2));
-physics_fixture_add_point(fixture, ((sprite_width / 2) - cart_width), -(sprite_height / 2));
-physics_fixture_set_density(fixture, fixture_density);
-physics_fixture_set_restitution(fixture, fixture_restitution);
-physics_fixture_set_linear_damping(fixture, fixture_linear_damping);
-physics_fixture_set_angular_damping(fixture, fixture_angular_damping);
-physics_fixture_set_friction(fixture, fixture_friction);
-physics_fixture_bind(fixture, id);
-physics_fixture_delete(fixture);
-*/
+event_inherited();
 
 hsp = 0; // horizontal speed
 vsp = 0; // vertical speed
-walksp = 15;
+walksp = 13;
+original_walksp = walksp;
 
 counter = 0;
 //walksp = 3;
