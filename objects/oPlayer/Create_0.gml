@@ -53,7 +53,7 @@ physics_fixture_delete(fixture);
 
 hsp = 0; // horizontal speed
 vsp = 0; // vertical speed
-walksp = 7;
+walksp = 15;
 
 counter = 0;
 //walksp = 3;

@@ -23,7 +23,7 @@ if (place_meeting(x+hsp,y,oWall))
 		x = x + sign(hsp);
 	}
 	hsp = 0;
-	show_debug_message("ASDF");
+	//show_debug_message("ASDF");
 }
 x = x + hsp;
 
@@ -35,7 +35,7 @@ if (place_meeting(x,y+vsp,oWall))
 		y = y + sign(vsp);
 	}
 	vsp = 0;
-	show_debug_message("FDSA");
+	//show_debug_message("FDSA");
 }
 
 y = y + vsp; 

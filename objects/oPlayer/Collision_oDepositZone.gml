@@ -1,7 +1,7 @@
 /// @description Empty collected items
 
-var key = oListed;
-var value = 1;
+//var key = oListed;
+//var value = 1;
 
 //if (ds_map_exists(global.shopList, key)) {
 //	value -= ds_map_find_value(global.shopList, key);
@@ -11,6 +11,7 @@ var value = 1;
 //var key = other;
 //var key = other.object_index;
 
+/*
 // Empty inventory
 if (ds_map_exists(global.inventory, key)) {
 	//value += ds_map_find_value(inventory, key);
@@ -19,6 +20,7 @@ if (ds_map_exists(global.inventory, key)) {
 	ds_map_add(global.inventory, key, value);
 	ds_list_add(global.inventoryItems, key);
 }
+*/
 
 
 // Reduce number in Shopping List
@@ -30,3 +32,4 @@ if (ds_map_exists(global.inventory, key)) {
 //	value -= ds_map_find_value(global.shopList, key);
 //	ds_map_replace(global.shopList, key, value);
 //}
+
