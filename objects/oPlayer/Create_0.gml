@@ -8,7 +8,9 @@ dir = 0; // direction, 0 = left, 1 = right
 isInvulnerable = false;
 invulnerable_duration = 50;
 hasTP = false;
+isTeleporting = false;
 tpSource = undefined;
+num_afterimages = 4;
 
 walksp = 14;
 full_inventory_walksp = 7;

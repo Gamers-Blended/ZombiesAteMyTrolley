@@ -11,6 +11,7 @@
     {"id":{"name":"oDynamicParent","path":"objects/oDynamicParent/oDynamicParent.yy",},"order":10,},
     {"id":{"name":"oItem","path":"objects/oItem/oItem.yy",},"order":5,},
     {"id":{"name":"item_pos","path":"scripts/item_pos/item_pos.yy",},"order":2,},
+    {"id":{"name":"oPlayerAfterImage","path":"objects/oPlayerAfterImage/oPlayerAfterImage.yy",},"order":23,},
     {"id":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},"order":7,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"sZombie1","path":"sprites/sZombie1/sZombie1.yy",},"order":3,},

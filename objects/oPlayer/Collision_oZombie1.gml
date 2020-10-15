@@ -9,11 +9,30 @@ if (!isInvulnerable) {
 	
 	// Toilet Paper Teleportation
 	if (hasTP) {
+		
+		/*
 		//var tpSource = instance_find(oTPSource, 1);
-		x = tpSource.x;
-		y = tpSource.y;
+		var tp_x = tpSource.x;
+		var tp_y = tpSource.y;
+		
+		// Create afterimages
+		var x_diff = (x - tp_x)/num_afterimages;
+		var y_diff = (y - tp_y)/num_afterimages;
+		
+		for (var i = 0; i < num_afterimages; i += 1) {
+			var afterimage = instance_create_layer(x-x_diff*i,y-y_diff*i,0,oPlayerAfterImage);
+			afterimage.image_alpha = 1/num_afterimages;
+			afterimage.image_blend = make_colour_hsv(0, 0, 255);
+		}
+		x = tp_x;
+		y = tp_y;
+		
 		instance_destroy(tpSource);
 		hasTP = false;
+		
+		*/
+		hasTP = false;
+		isTeleporting = true;
 		
 	} else {
 		if (inventory_amt != 0) {
@@ -27,9 +46,9 @@ if (!isInvulnerable) {
 				// Remove item
 				ds_map_replace(global.inventory, item_key, 0);
 		
-				// Spawns the items
+				// Spawns and throws the items in inventory
 				item = instance_create_layer(x,y-sprite_height/2-sprite_get_height(sItem),0,item_key);
-				item.vsp = -10;
+				item.vsp = -20;
 				item.hsp = irandom_range(-10,10);
 				}
 			inventory_amt = 0;		

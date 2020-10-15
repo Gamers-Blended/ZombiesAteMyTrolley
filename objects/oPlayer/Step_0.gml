@@ -11,9 +11,10 @@ var move = key_right - key_left;
 var hor_item_drag = (original_walksp - full_inventory_walksp) * inventory_amt / max_inventory_size;
 var ver_item_drag = (original_jumpsp - full_inventory_jumpsp) * inventory_amt / max_inventory_size;
 
-hsp = move * (walksp - hor_item_drag);
-vsp = vsp + global.levelGrv;
-
+if (!isTeleporting) {
+	hsp = move * (walksp - hor_item_drag);
+	vsp = vsp + global.levelGrv;
+}
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
@@ -56,6 +57,17 @@ if (key_left) {
 	dir = 0;
 } else if (key_right) {
 	dir = 1;
+}
+
+// Move player when he has toilet paper protection
+if (isTeleporting) {
+	if (!place_meeting(x,y,tpSource)) {
+		move_towards_point(tpSource.x, tpSource.y, 100);
+	} else {
+		speed = 0;
+		isTeleporting = false;
+		instance_destroy(tpSource);
+	}
 }
 
 event_inherited();
