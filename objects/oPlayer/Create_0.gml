@@ -7,6 +7,8 @@ vsp = 0; // vertical speed
 dir = 0; // direction, 0 = left, 1 = right
 isInvulnerable = false;
 invulnerable_duration = 50;
+hasTP = false;
+tpSource = undefined;
 
 walksp = 14;
 full_inventory_walksp = 7;

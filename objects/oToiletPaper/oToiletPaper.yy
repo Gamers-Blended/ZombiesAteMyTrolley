@@ -28,7 +28,9 @@
     {"x":49.0,"y":47.0,},
     {"x":14.0,"y":47.0,},
   ],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oToiletPaper","path":"objects/oToiletPaper/oToiletPaper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {

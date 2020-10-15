@@ -17,15 +17,13 @@ if num<5
 	{
 		makethis = oIrrelevant;
 	}
-	else if r = 3 && (!ds_map_exists(global.inventory, oToiletPaper))
+	else if r = 3 && (!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource))
 	{
 		makethis = oToiletPaper;
 	}
 
 	// Spawns the items
 	item = instance_create_layer(xp,yp,0,makethis);
-	//item.speed = 8;
-	//item.direction = 270;
 }
 
 /*

@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-hasTP = true;
-tpSource = instance_create_layer(x,y,0,oTPSource);
+image_angle += 1;
