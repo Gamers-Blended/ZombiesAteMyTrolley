@@ -3,9 +3,17 @@ event_inherited();
 
 hsp = 0; // horizontal speed
 vsp = 0; // vertical speed
-walksp = 13;
+
+walksp = 14;
+full_inventory_walksp = 7;
 original_walksp = walksp;
 
+jumpsp = 10;
+original_jumpsp = jumpsp;
+full_inventory_jumpsp = 5
+
+inventory_amt = 0;
+max_inventory_size = 20;
 counter = 0;
 //walksp = 3;
 //hsp = walksp;

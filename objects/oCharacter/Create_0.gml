@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-rice_speed_reduce = 8;
+rice_reducer_multiplier = 0.5;
 isTouchingRice = true;

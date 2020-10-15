@@ -7,13 +7,17 @@ key_jump = keyboard_check_pressed(vk_space);
 // Calculate movement
 var move = key_right - key_left;
 
-hsp = move * walksp;
+// Calculate penalty due to items in inventory
+var hor_item_drag = (original_walksp - full_inventory_walksp) * inventory_amt / max_inventory_size;
+var ver_item_drag = (original_jumpsp - full_inventory_jumpsp) * inventory_amt / max_inventory_size;
+
+hsp = move * (walksp - hor_item_drag);
 vsp = vsp + global.levelGrv;
 
 
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
-	vsp = -10;
+	vsp = -jumpsp + ver_item_drag;
 }
 
 // Horizontal collision

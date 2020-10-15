@@ -48,6 +48,7 @@ if place_meeting(x, y + 1, oPlayer) {
 	        var key = ds_list_find_value(global.inventoryItems, i);
 	        ds_map_replace(global.inventory, key, 0);
 	    }
+		oPlayer.inventory_amt = 0;
     }    
 }
 else {

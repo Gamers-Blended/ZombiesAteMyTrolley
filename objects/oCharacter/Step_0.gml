@@ -8,7 +8,7 @@ if place_meeting(x,y,oEffectRice) {
 }
 
 if (isTouchingRice) {
-	walksp = original_walksp - rice_speed_reduce;
+	walksp = original_walksp * rice_reducer_multiplier;
 } else {
 	walksp = original_walksp;
 }
