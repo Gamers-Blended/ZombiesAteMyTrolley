@@ -49,17 +49,11 @@ physics_fixture_set_friction(fixture, fixture_friction);
 physics_fixture_bind(fixture, id);
 physics_fixture_delete(fixture);
 
-/*
+
 hsp = 0; // horizontal speed
 vsp = 0; // vertical speed
 grv = 0.3;
 walksp = 7;
-
-counter = 0;
-//walksp = 3;
-//hsp = walksp;
-
-*/
 
 
 // Forces and Speeds

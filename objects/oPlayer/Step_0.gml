@@ -102,7 +102,20 @@ if (place_meeting(x,y+1,oItem)) && (key_jump)
 // Clamp movement speed so we don't accelerate forever
 phy_speed_x = clamp(phy_speed_x, -max_x_speed, max_x_speed);
 
+// Collision with Zombies
 if (place_meeting(x, y, oZombie1)) 
 {
-  instance_destroy();
+	if (ds_map_size(global.inventory)==0)
+	{
+		instance_destroy();
+	}
+	else
+	{
+	}
+}
+
+// Collision with deposit zone
+if (place_meeting(x,y+1,oDepositZone)) && (key_jump)
+{
+	physics_apply_impulse(x, y, 0, -y_force)
 }

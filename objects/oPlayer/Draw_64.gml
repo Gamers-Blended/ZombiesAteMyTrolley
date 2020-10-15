@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Draws the inventory
 if (shouldShowInventory) {
 	var len = ds_list_size(global.inventoryItems);
 	for (var i = 0; i < len; i++) {

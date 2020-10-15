@@ -1,24 +1,21 @@
 /// @description Empty collected items
 
-var key = oListed;
-var value = 1;
+//var key = oListed;
+//var value = 1;
 
 //if (ds_map_exists(global.shopList, key)) {
 //	value -= ds_map_find_value(global.shopList, key);
 //	ds_map_replace(global.shopList, key, value);
 //}
 
-//var key = other;
-//var key = other.object_index;
+//var len = ds_list_size(global.inventoryItems);
+//for (var i = 0; i < len; i++)
+//{
+//	var key = ds_list_find_value(global.inventoryItems, i);
+//	ds_map_replace(global.inventory, key, 0);
 
-// Empty inventory
-if (ds_map_exists(global.inventory, key)) {
-	//value += ds_map_find_value(inventory, key);
-	ds_map_replace(global.inventory, key, 0);
-} else {
-	ds_map_add(global.inventory, key, value);
-	ds_list_add(global.inventoryItems, key);
-}
+//	// Empty inventory
+//}
 
 
 // Reduce number in Shopping List
