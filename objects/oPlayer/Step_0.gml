@@ -52,6 +52,12 @@ if (place_meeting(x,y+vsp,oIrrelevant) or (place_meeting(x,y+vsp,oItem)))
 	
 }
 
+if (key_left) {
+	dir = 0;
+} else if (key_right) {
+	dir = 1;
+}
+
 event_inherited();
 
 

@@ -4,6 +4,10 @@ event_inherited();
 hsp = 0; // horizontal speed
 vsp = 0; // vertical speed
 
+dir = 0; // direction, 0 = left, 1 = right
+isInvulnerable = false;
+invulnerable_duration = 50;
+
 walksp = 14;
 full_inventory_walksp = 7;
 original_walksp = walksp;
@@ -15,9 +19,8 @@ full_inventory_jumpsp = 5
 inventory_amt = 0;
 max_inventory_size = 20;
 counter = 0;
-//walksp = 3;
-//hsp = walksp;
 
+zombie_knockback_dist = 10;
 
 // Forces and Speeds
 // Acceleration and jumping forces

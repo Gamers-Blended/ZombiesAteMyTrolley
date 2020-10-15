@@ -20,6 +20,8 @@ if (place_meeting(x,y+vsp,oWall))
 	vsp = 0;
 }*/
 
+x = x + hsp;
+
 vsp = vsp + global.levelGrv * weight;
 y = y + vsp;
 
