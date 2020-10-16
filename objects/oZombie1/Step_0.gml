@@ -1,8 +1,10 @@
-vsp = vsp + grv;
+//var move = 1;
 
+vsp = vsp + global.levelGrv;
+hsp = move * walksp;
 
 // Don't walk off edges
-if (grounded) && (afraidofheights) && (!place_meeting(x+hsp, y+1, oGround))
+if (grounded) && (afraidofheights) && (!place_meeting(x+hsp, y+1, oWall))
 {
 	hsp = -hsp;
 }
@@ -14,14 +16,14 @@ if (place_meeting(x+hsp,y,oWall))
 	{
 		x = x + sign(hsp);
 	}
-	hsp = -hsp;
+	move = -move;
 }
 x = x + hsp;
 
 // Vertical collision
-if (place_meeting(x,y+vsp,oGround))
+if (place_meeting(x,y+vsp,oWall))
 {
-	while (!place_meeting(x,y+sign(vsp),oGround))
+	while (!place_meeting(x,y+sign(vsp),oWall))
 	{
 		y = y + sign(vsp);
 	}
@@ -31,7 +33,7 @@ if (place_meeting(x,y+vsp,oGround))
 y = y + vsp; // position
 
 // Fall
-if (!place_meeting(x,y+1,oGround))
+if (!place_meeting(x,y+1,oWall))
 {
 	grounded = false;
 }
@@ -40,3 +42,5 @@ else
 {
 	grounded = true;
 }
+
+event_inherited();

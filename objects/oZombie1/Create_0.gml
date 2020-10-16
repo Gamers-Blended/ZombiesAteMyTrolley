@@ -1,4 +1,8 @@
+event_inherited();
+
 hsp = 4; // horizontal speed
 vsp = 0; // vertical speed
-grv = 0.3;
-walksp = 7;
+//grv = global.levelGrv;
+walksp = 9;
+original_walksp = walksp;
+move = 1;
