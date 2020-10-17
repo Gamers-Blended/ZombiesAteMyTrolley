@@ -1,5 +1,9 @@
 //var move = 1;
 
+if (!has_control) {
+	move = 0;
+}
+
 vsp = vsp + global.levelGrv;
 hsp = move * walksp;
 

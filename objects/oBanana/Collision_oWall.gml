@@ -4,5 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-//instance_create_layer(x,y,0,oTPSource);
-//instance_destroy();
+instance_create_layer(x,y-sprite_get_height(oEffectBanana)/2,"instances",oEffectBanana);

@@ -11,6 +11,7 @@ hasTP = false;
 isTeleporting = false;
 tpSource = undefined;
 num_afterimages = 4;
+hasControl = true;
 
 walksp = 14;
 full_inventory_walksp = 7;

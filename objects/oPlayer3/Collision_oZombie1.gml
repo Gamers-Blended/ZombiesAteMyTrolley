@@ -5,7 +5,7 @@ if (!isInvulnerable) {
 	// Make character invulnerable
 	image_alpha = 0.5;
 	isInvulnerable = true;
-	alarm[0] = invulnerable_duration;
+	alarm[11] = invulnerable_duration;
 	
 	// Toilet Paper Teleportation
 	if (hasTP) {
