@@ -39,7 +39,6 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oDepositZone","path":"objects/oDepositZone/oDepositZone.yy",},"parent":{"name":"oPlayer3","path":"objects/oPlayer3/oPlayer3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"oPlayer3","path":"objects/oPlayer3/oPlayer3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oToiletPaper","path":"objects/oToiletPaper/oToiletPaper.yy",},"parent":{"name":"oPlayer3","path":"objects/oPlayer3/oPlayer3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":82,"eventType":9,"collisionObjectId":null,"parent":{"name":"oPlayer3","path":"objects/oPlayer3/oPlayer3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

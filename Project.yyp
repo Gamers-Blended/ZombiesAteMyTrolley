@@ -9,6 +9,7 @@
     {"id":{"name":"oLevelEnd2","path":"objects/oLevelEnd2/oLevelEnd2.yy",},"order":6,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":8,},
+    {"id":{"name":"oPreydator","path":"objects/oPreydator/oPreydator.yy",},"order":7,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"oListed","path":"objects/oListed/oListed.yy",},"order":3,},
     {"id":{"name":"oTimer2","path":"objects/oTimer2/oTimer2.yy",},"order":3,},
@@ -56,6 +57,7 @@
     {"id":{"name":"sEffectRice","path":"sprites/sEffectRice/sEffectRice.yy",},"order":10,},
     {"id":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"order":2,},
     {"id":{"name":"oLevelEnd","path":"objects/oLevelEnd/oLevelEnd.yy",},"order":7,},
+    {"id":{"name":"sPreydator","path":"sprites/sPreydator/sPreydator.yy",},"order":16,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

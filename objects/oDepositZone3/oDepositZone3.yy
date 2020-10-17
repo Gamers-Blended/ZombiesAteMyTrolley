@@ -31,6 +31,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oDynamicParent","path":"objects/oDynamicParent/oDynamicParent.yy",},"parent":{"name":"oDepositZone3","path":"objects/oDepositZone3/oDepositZone3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oStaticParent","path":"objects/oStaticParent/oStaticParent.yy",},"parent":{"name":"oDepositZone3","path":"objects/oDepositZone3/oDepositZone3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oDepositZone3","path":"objects/oDepositZone3/oDepositZone3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":82,"eventType":9,"collisionObjectId":null,"parent":{"name":"oDepositZone3","path":"objects/oDepositZone3/oDepositZone3.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

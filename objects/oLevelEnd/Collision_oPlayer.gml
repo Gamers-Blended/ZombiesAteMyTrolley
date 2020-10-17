@@ -26,7 +26,6 @@ with (oPlayer)
 {
 	if (levelcleared)
 	{
-		//hascontrol = false;
 		SlideTransition(TRANS_MODE.GOTO, other.target);
 	}
 }

@@ -39,7 +39,7 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oDepositZone","path":"objects/oDepositZone/oDepositZone.yy",},"parent":{"name":"oPlayer2","path":"objects/oPlayer2/oPlayer2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"parent":{"name":"oPlayer2","path":"objects/oPlayer2/oPlayer2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oToiletPaper","path":"objects/oToiletPaper/oToiletPaper.yy",},"parent":{"name":"oPlayer2","path":"objects/oPlayer2/oPlayer2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":82,"eventType":9,"collisionObjectId":null,"parent":{"name":"oPlayer2","path":"objects/oPlayer2/oPlayer2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPreydator","path":"objects/oPreydator/oPreydator.yy",},"parent":{"name":"oPlayer2","path":"objects/oPlayer2/oPlayer2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
