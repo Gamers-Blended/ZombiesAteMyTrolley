@@ -34,15 +34,3 @@ if place_meeting(x, y + 1, oPlayer3) {
 else {
     has_deposited = false;
 }
-
-// Animation	
-if (oPlayer3.inventory_amt != 0)
-{
-	sprite_index = sDepositZoneGlow;
-	image_speed = 0;
-}
-else
-{
-	sprite_index = sDepositZone;
-	image_speed = 1;
-}
