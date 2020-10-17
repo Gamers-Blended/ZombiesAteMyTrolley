@@ -3,7 +3,7 @@
 var key = other.object_index;
 var value = 1;
 
-if (inventory_amt < max_inventory_size) {
+if (global.inventory_amt < max_inventory_size) {
 	
 	if (ds_map_exists(global.inventory, key)) {
 		value += ds_map_find_value(global.inventory, key);
@@ -13,7 +13,7 @@ if (inventory_amt < max_inventory_size) {
 		ds_list_add(global.inventoryItems, key);
 	}
 	
-	inventory_amt += 1;
+	global.inventory_amt += 1;
 }
 
 // Items disappear upon collection

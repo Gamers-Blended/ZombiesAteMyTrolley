@@ -28,7 +28,7 @@ if place_meeting(x, y + 1, oPlayer2) {
 	        var key = ds_list_find_value(global.inventoryItems, i);
 	        ds_map_replace(global.inventory, key, 0);
 	    }
-		oPlayer2.inventory_amt = 0;
+		global.inventory_amt = 0;
     }    
 }
 else {
@@ -36,7 +36,7 @@ else {
 }
 
 // Animation	
-if (oPlayer2.inventory_amt != 0)
+if (global.inventory_amt != 0)
 {
 	sprite_index = sDepositZoneGlow;
 	image_speed = 0;

@@ -8,8 +8,8 @@ key_jump = keyboard_check_pressed(vk_space);
 var move = key_right - key_left;
 
 // Calculate penalty due to items in inventory
-var hor_item_drag = (original_walksp - full_inventory_walksp) * inventory_amt / max_inventory_size;
-var ver_item_drag = (original_jumpsp - full_inventory_jumpsp) * inventory_amt / max_inventory_size;
+var hor_item_drag = (original_walksp - full_inventory_walksp) * global.inventory_amt / max_inventory_size;
+var ver_item_drag = (original_jumpsp - full_inventory_jumpsp) * global.inventory_amt / max_inventory_size;
 
 if (!isTeleporting) {
 	hsp = move * (walksp - hor_item_drag);

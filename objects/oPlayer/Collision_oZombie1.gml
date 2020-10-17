@@ -35,7 +35,7 @@ if (!isInvulnerable) {
 		isTeleporting = true;
 		
 	} else {
-		if (inventory_amt != 0) {
+		if (global.inventory_amt != 0) {
 	
 			// Reset all inventory items to 0, and spit them all out
 			var len = ds_list_size(global.inventoryItems);
@@ -51,7 +51,7 @@ if (!isInvulnerable) {
 				item.vsp = -20;
 				item.hsp = irandom_range(-10,10);
 				}
-			inventory_amt = 0;		
+			global.inventory_amt = 0;		
 
 		} else {
 			instance_destroy();

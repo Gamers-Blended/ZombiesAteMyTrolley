@@ -20,7 +20,7 @@ jumpsp = 10;
 original_jumpsp = jumpsp;
 full_inventory_jumpsp = 5
 
-inventory_amt = 0;
+global.inventory_amt = 0;
 max_inventory_size = 10;
 counter = 0;
 
