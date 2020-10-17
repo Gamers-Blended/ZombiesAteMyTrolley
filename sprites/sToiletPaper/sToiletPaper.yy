@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 30,
-  "bbox_top": 0,
-  "bbox_bottom": 30,
+  "bbox_left": 10,
+  "bbox_right": 97,
+  "bbox_top": 30,
+  "bbox_bottom": 80,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 32,
-  "height": 32,
+  "width": 100,
+  "height": 100,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"fb8243bd-fb15-4518-a877-3b3b65ee09b5","path":"sprites/sToiletPaper/sToiletPaper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"fb8243bd-fb15-4518-a877-3b3b65ee09b5","path":"sprites/sToiletPaper/sToiletPaper.yy",},"LayerId":{"name":"338e5f6a-beeb-4f41-a2a1-bb4ae33a77d6","path":"sprites/sToiletPaper/sToiletPaper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sToiletPaper","path":"sprites/sToiletPaper/sToiletPaper.yy",},"resourceVersion":"1.0","name":"fb8243bd-fb15-4518-a877-3b3b65ee09b5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cfff0daa-e05d-4e04-bb51-92e024a63b46","path":"sprites/sToiletPaper/sToiletPaper.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cfff0daa-e05d-4e04-bb51-92e024a63b46","path":"sprites/sToiletPaper/sToiletPaper.yy",},"LayerId":{"name":"62ffa3c1-b11f-4e71-b396-1a4196a0df10","path":"sprites/sToiletPaper/sToiletPaper.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sToiletPaper","path":"sprites/sToiletPaper/sToiletPaper.yy",},"resourceVersion":"1.0","name":"cfff0daa-e05d-4e04-bb51-92e024a63b46","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sToiletPaper","path":"sprites/sToiletPaper/sToiletPaper.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c28cc32d-c49b-46e4-a0f4-6bdebf5c2c16","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fb8243bd-fb15-4518-a877-3b3b65ee09b5","path":"sprites/sToiletPaper/sToiletPaper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6157ebcf-7327-44d3-89e8-95a2e44d2e8c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cfff0daa-e05d-4e04-bb51-92e024a63b46","path":"sprites/sToiletPaper/sToiletPaper.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 16,
-    "yorigin": 16,
+    "xorigin": 50,
+    "yorigin": 50,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sToiletPaper","path":"sprites/sToiletPaper/sToiletPaper.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"338e5f6a-beeb-4f41-a2a1-bb4ae33a77d6","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"62ffa3c1-b11f-4e71-b396-1a4196a0df10","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",

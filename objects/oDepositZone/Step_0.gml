@@ -28,21 +28,9 @@ if place_meeting(x, y + 1, oPlayer) {
 	        var key = ds_list_find_value(global.inventoryItems, i);
 	        ds_map_replace(global.inventory, key, 0);
 	    }
-		global.inventory_amt = 0;
+		oPlayer.inventory_amt = 0;
     }    
 }
 else {
     has_deposited = false;
-}
-
-// Animation	
-if (global.inventory_amt != 0)
-{
-	sprite_index = sDepositZoneGlow;
-	image_speed = 0;
-}
-else
-{
-	sprite_index = sDepositZone;
-	image_speed = 1;
 }
