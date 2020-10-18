@@ -44,8 +44,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Level 1",
+    "path": "folders/Objects/Level 1.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPlayer",
