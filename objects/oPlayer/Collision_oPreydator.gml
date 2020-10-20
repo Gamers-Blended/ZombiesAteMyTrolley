@@ -33,6 +33,7 @@ if (!isInvulnerable) {
 		*/
 		hasTP = false;
 		isTeleporting = true;
+		global.gamePause = true;
 		
 	} else {
 		if (global.inventory_amt != 0) {

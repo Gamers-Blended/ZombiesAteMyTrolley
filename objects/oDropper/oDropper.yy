@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Level 1",
-    "path": "folders/Objects/Level 1.yy",
+    "name": "Parameters",
+    "path": "folders/Objects/Parameters.yy",
   },
   "resourceVersion": "1.0",
   "name": "oDropper",

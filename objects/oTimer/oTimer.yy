@@ -25,8 +25,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Parameters",
+    "path": "folders/Objects/Parameters.yy",
   },
   "resourceVersion": "1.0",
   "name": "oTimer",

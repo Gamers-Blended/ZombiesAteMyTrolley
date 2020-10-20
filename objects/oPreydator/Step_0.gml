@@ -12,17 +12,19 @@ switch (state)
 	{
 		hsp = 0;
 		vsp = (min(7,vsp+0.05));
-		if (distance_to_object(oPlayer2) < 128) state = e_state.chase;
+		// inside aggro range (Adjust range here!)
+		if (distance_to_object(oPlayer) < 180) state = e_state.chase;
 	}
 	break;
 	case e_state.chase:
 	{
-		if (instance_exists(oPlayer2))
+		if (instance_exists(oPlayer))
 		{
-			dir = sign(oPlayer2.x - x);
+			dir = sign(oPlayer.x - x);
 			hsp = dir * 2;
 			vsp = (min(7,vsp+0.05));
-			if (distance_to_object(oPlayer2) > 150) state = e_state.idle;
+			// outside aggro range
+			if (distance_to_object(oPlayer) > 165) state = e_state.idle;
 		}
 		else
 		{

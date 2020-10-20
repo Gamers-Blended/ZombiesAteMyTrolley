@@ -1,21 +1,16 @@
-/*
-#macro RES_W 1024
-#macro RES_H 768
-display_set_gui_size(RES_W,RES_H);
-
-
-// Inventory
-global.inv = ds_list_create();
-
-// Items
-enum item{
-	listed,
-	irrelvant
-}
-
-itemSprite[item.listed] = sItem;
-itemSprite[item.irrelvant] = sIrrelvant;
-*/
-
-
 global.levelGrv = 0.3;
+
+if (room == Room1)
+{
+	global.level = 1;
+}
+else if (room == Room2)
+{
+	global.level = 2;
+}
+else if (room == Room3)
+{
+	global.level = 3;
+}	
+
+global.gamePause = false;
