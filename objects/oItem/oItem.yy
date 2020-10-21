@@ -35,8 +35,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Items.yy",
+    "name": "Parameters",
+    "path": "folders/Objects/Parameters.yy",
   },
   "resourceVersion": "1.0",
   "name": "oItem",
