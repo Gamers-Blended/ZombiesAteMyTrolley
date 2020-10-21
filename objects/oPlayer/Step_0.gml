@@ -16,6 +16,7 @@ if (!isTeleporting) {
 	vsp = vsp + global.levelGrv;
 }
 
+// Jump
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -jumpsp + ver_item_drag;
@@ -45,13 +46,6 @@ if (place_meeting(x,y+vsp,oWall))
 }
 
 y = y + vsp; 
-
-
-if (place_meeting(x,y+vsp,oIrrelevant) or (place_meeting(x,y+vsp,oItem)))
-{
-	counter = counter + 1;
-	
-}
 
 if (key_left) {
 	dir = 0;

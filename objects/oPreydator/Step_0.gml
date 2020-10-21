@@ -23,6 +23,8 @@ switch (state)
 			dir = sign(oPlayer.x - x);
 			hsp = dir * 2;
 			vsp = (min(7,vsp+0.05));
+			// Update facing direction
+			image_xscale = orig_xscale*sign(hsp);
 			// outside aggro range
 			if (distance_to_object(oPlayer) > 165) state = e_state.idle;
 		}
@@ -75,6 +77,7 @@ else
 {
 	grounded = true;
 }
+
 
 
 event_inherited();

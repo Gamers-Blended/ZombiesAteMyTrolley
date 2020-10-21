@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "sDoor",
-    "path": "sprites/sDoor/sDoor.yy",
+    "name": "sJumpPoint",
+    "path": "sprites/sJumpPoint/sJumpPoint.yy",
   },
-  "solid": true,
-  "visible": true,
+  "solid": false,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -20,17 +20,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Objects/GameObjects.yy",
+    "name": "Parameters",
+    "path": "folders/Objects/Parameters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oDoor",
+  "name": "oJumpPoint",
   "tags": [],
   "resourceType": "GMObject",
 }

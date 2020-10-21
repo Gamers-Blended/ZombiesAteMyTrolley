@@ -35,8 +35,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "GameObjects",
+    "path": "folders/Objects/GameObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "oGround",

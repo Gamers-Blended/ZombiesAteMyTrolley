@@ -46,4 +46,23 @@ else
 // Update facing direction
 image_xscale = orig_xscale*sign(hsp);
 
+// Jumping
+num = irandom_range(1,100);
+//if num<3
+if true
+{
+	// Jump
+	if ( jump_buffer_count >= jump_buffer) && place_meeting(x+10*sign(hsp),y,oJumpPoint)
+	{
+		jump_buffer_count = 0;
+		vsp = -jumpsp;
+	}
+}
+
+
+// Check / increment jump buffer
+if jump_buffer_count < jump_buffer
+{
+   jump_buffer_count++;
+}
 event_inherited();

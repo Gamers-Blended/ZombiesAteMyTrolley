@@ -8,6 +8,8 @@ walksp = 9;
 original_walksp = walksp;
 move = 1;
 
+orig_xscale = -image_xscale;
+
 enum e_state
 {
 	idle,
