@@ -12,13 +12,17 @@ isTeleporting = false;
 tpSource = undefined;
 num_afterimages = 4;
 
-walksp = 14;
+walksp = 30;
 full_inventory_walksp = 7;
 original_walksp = walksp;
 
 jumpsp = 10;
 original_jumpsp = jumpsp;
 full_inventory_jumpsp = 5
+
+max_momentum = 13;
+original_max_momentum = max_momentum;
+bounciness = 0.3;
 
 global.inventory_amt = 0;
 max_inventory_size = 10;

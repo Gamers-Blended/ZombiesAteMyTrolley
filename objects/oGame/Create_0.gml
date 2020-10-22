@@ -1,4 +1,5 @@
 global.levelGrv = 0.3;
+global.levelFriction = 0.1;
 
 if (room == Room1)
 {

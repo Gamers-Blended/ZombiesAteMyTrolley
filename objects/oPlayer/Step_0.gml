@@ -4,9 +4,8 @@ key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 
-// Calculate movement
+// Calculate movement direction
 var move = 0;
-
 if (!is_stunned) {
 	var move = key_right - key_left;
 }
@@ -15,8 +14,31 @@ if (!is_stunned) {
 var hor_item_drag = (original_walksp - full_inventory_walksp) * global.inventory_amt / max_inventory_size;
 var ver_item_drag = (original_jumpsp - full_inventory_jumpsp) * global.inventory_amt / max_inventory_size;
 
+// Calculate player horizontal movement speed BEFORE taking directions into account
+var momentum_change = (move * (walksp - hor_item_drag)) * momentum_controller;
+
+// Calculate player momentum after player movement is accounted for
+momentum = momentum + momentum_change;
+
+// Take friction into account so player does not move in same speed forever
+if (momentum > 0) {
+	momentum -= global.levelFriction;
+} else {
+	momentum += global.levelFriction;
+}
+
+// Make sure player does not move too fast
+if (momentum > max_momentum) {
+	momentum = max_momentum;
+} else if (momentum < -max_momentum) {
+	momentum = -max_momentum;
+}
+
+show_debug_message(max_momentum);
+
 if (!isTeleporting) {
-	hsp = move * (walksp - hor_item_drag);
+	//hsp = move * (walksp - hor_item_drag);
+	hsp = momentum;
 	vsp = vsp + global.levelGrv;
 }
 
@@ -34,7 +56,7 @@ if (place_meeting(x+hsp,y,oWall))
 		x = x + sign(hsp);
 	}
 	hsp = 0;
-	//show_debug_message("ASDF");
+	momentum = -momentum * bounciness;
 }
 x = x + hsp;
 
@@ -46,7 +68,6 @@ if (place_meeting(x,y+vsp,oWall))
 		y = y + sign(vsp);
 	}
 	vsp = 0;
-	//show_debug_message("FDSA");
 }
 
 y = y + vsp; 
@@ -63,6 +84,7 @@ if (isTeleporting) {
 		move_towards_point(tpSource.x, tpSource.y, 100);
 	} else {
 		speed = 0;
+		momentum = 0;
 		isTeleporting = false;
 		instance_destroy(tpSource);
 	}

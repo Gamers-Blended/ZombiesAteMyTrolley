@@ -8,9 +8,11 @@ if place_meeting(x,y,oEffectRice) {
 }
 
 if (isTouchingRice) {
-	walksp = original_walksp * rice_reducer_multiplier;
+	walksp = original_walksp * rice_reducer_multiplier; // might be more applicable for milk
+	max_momentum = original_max_momentum * rice_reducer_multiplier;
 } else {
 	walksp = original_walksp;
+	max_momentum = original_max_momentum;
 }
 
 /*
