@@ -5,7 +5,11 @@ key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 
 // Calculate movement
-var move = key_right - key_left;
+var move = 0;
+
+if (!is_stunned) {
+	var move = key_right - key_left;
+}
 
 // Calculate penalty due to items in inventory
 var hor_item_drag = (original_walksp - full_inventory_walksp) * global.inventory_amt / max_inventory_size;

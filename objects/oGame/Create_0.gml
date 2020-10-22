@@ -1,6 +1,11 @@
 global.levelGrv = 0.3;
 
-if (room == Room1)
+if (room == Room0)
+{
+	global.level = 0;
+}
+
+else if (room == Room1)
 {
 	global.level = 1;
 }

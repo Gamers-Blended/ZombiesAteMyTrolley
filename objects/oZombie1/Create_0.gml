@@ -6,5 +6,6 @@ vsp = 0; // vertical speed
 walksp = 9;
 original_walksp = walksp;
 move = 1;
+resume_dir = 1;
 
 orig_xscale = image_xscale;

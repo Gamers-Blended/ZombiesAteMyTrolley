@@ -3,7 +3,7 @@
 // Level selector
 var numberofItems = 1
 	
-if (global.level == 1)
+if (global.level == 1) or (global.level == 0)
 {
 	numberofItems = 2
 }
@@ -24,7 +24,7 @@ if num<5
 	yp = 100;
 	
 	// Level 1
-	if (global.level == 1)
+	if (global.level == 1) or (global.level == 0)
 	{
 		// Randomly generate id for items
 		if ((!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource)))

@@ -1,7 +1,20 @@
 //var move = 1;
 
+/*
+if (is_stunned) {
+	walksp = 0;
+} else {
+	walksp = original_walksp;
+}*/
+
 vsp = vsp + global.levelGrv;
-hsp = move * walksp;
+hsp = move * walksp * !is_stunned;
+
+/*if (is_stunned) {
+	walksp = 0;
+} else {
+	walksp = original_walksp;
+}*/
 
 // Don't walk off edges
 if (grounded) && (afraidofheights) && (!place_meeting(x+hsp, y+1, oWall))
@@ -16,7 +29,10 @@ if (place_meeting(x+hsp,y,oWall))
 	{
 		x = x + sign(hsp);
 	}
+	
+	// Turn around when colliding with wall
 	move = -move;
+	
 }
 x = x + hsp;
 
@@ -44,6 +60,6 @@ else
 }
 
 // Update facing direction
-image_xscale = orig_xscale*sign(hsp);
+image_xscale = orig_xscale*sign(move);
 
 event_inherited();
