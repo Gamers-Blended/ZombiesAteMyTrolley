@@ -12,3 +12,11 @@ if (isTouchingRice) {
 } else {
 	walksp = original_walksp;
 }
+
+/*
+if (is_stunned) {
+	walksp = 0;
+} else {
+	walksp = original_walksp;
+}
+*/
