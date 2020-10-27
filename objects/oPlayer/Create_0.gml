@@ -53,3 +53,19 @@ control_jump = vk_space;
 global.inventory = ds_map_create();
 global.inventoryItems = ds_list_create();
 shouldShowInventory = true;
+
+
+// 10 seconds time
+inTime_max = 10;
+inTime = 10;
+
+// Flashing
+flashAlpha = 0;
+flashColor = c_white;
+
+// Inventory Bar
+max_inventory_size = 10;
+global.inventory_amt = 0;
+
+weight_width = 20;
+weight_height = 10;

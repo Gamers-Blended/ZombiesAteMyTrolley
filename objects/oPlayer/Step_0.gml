@@ -70,7 +70,22 @@ if (isTeleporting) {
 
 event_inherited();
 
+// Teleport back
+if (inTime > 0) {
+	inTime=inTime-delta_time/1000000
+} else if (inTime < 0) {
+	inTime = 0;
+} else if (inTime == 0) {
+	x = oDepositZone.x+25;
+	y = oDepositZone.y-200;
+	flashAlpha = 1;
+	inTime = 10;
+}
 
+// Reduce Flash
+if (flashAlpha > 0){
+	flashAlpha -= 0.005;
+}
 /*
 
 /// @description Player Movement

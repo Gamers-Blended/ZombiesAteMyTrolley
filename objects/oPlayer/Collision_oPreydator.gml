@@ -53,9 +53,16 @@ if (!isInvulnerable) {
 				item.hsp = irandom_range(-10,10);
 				}
 			global.inventory_amt = 0;		
-
-		} else {
-			instance_destroy();
+			ScreenShake(12,10);
+			}
+			else
+			{
+				ScreenShake(12,10);
+				//instance_destroy();
+				// teleport back emptyhanded
+				x = oDepositZone.x+25;
+				y = oDepositZone.y-200;
+				flashAlpha = 1;
 		}
 	}
 }
