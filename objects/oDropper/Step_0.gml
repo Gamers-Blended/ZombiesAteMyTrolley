@@ -144,3 +144,14 @@ if num<5
 	// Spawns the items
 	item = instance_create_layer(xp,yp,"instances",makethis);
 }
+
+// Toilet Paper code
+/*
+		// Randomly generate id for items
+		if ((!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource)))
+		{
+			r = irandom_range(1,3);
+		} else { 
+			r = irandom_range(1,2);
+		}
+		*/
