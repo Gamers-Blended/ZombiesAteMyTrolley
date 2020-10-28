@@ -2,13 +2,11 @@
   "resources": [
     {"id":{"name":"ScreenShake","path":"scripts/ScreenShake/ScreenShake.yy",},"order":1,},
     {"id":{"name":"sPotatoChips","path":"sprites/sPotatoChips/sPotatoChips.yy",},"order":14,},
-    {"id":{"name":"sAlert","path":"sprites/sAlert/sAlert.yy",},"order":26,},
     {"id":{"name":"oShoppingList","path":"objects/oShoppingList/oShoppingList.yy",},"order":1,},
     {"id":{"name":"shFlash","path":"shaders/shFlash/shFlash.yy",},"order":0,},
     {"id":{"name":"sIrrelvant","path":"sprites/sIrrelvant/sIrrelvant.yy",},"order":6,},
     {"id":{"name":"oCharacter","path":"objects/oCharacter/oCharacter.yy",},"order":6,},
     {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},"order":5,},
-    {"id":{"name":"oRestSpot","path":"objects/oRestSpot/oRestSpot.yy",},"order":7,},
     {"id":{"name":"Sprite13","path":"sprites/Sprite13/Sprite13.yy",},"order":12,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oGame","path":"objects/oGame/oGame.yy",},"order":4,},

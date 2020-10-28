@@ -19,5 +19,3 @@ else if (global.level == 3)
 {
 	myTime = 60*5;
 }
-
-myTime = 60*20
