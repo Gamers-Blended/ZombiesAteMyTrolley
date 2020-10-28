@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sIrrelvant",
-    "path": "sprites/sIrrelvant/sIrrelvant.yy",
+    "name": "sJumpPoint",
+    "path": "sprites/sJumpPoint/sJumpPoint.yy",
   },
   "solid": false,
   "visible": false,

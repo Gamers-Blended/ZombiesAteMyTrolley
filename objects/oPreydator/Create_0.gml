@@ -13,7 +13,8 @@ orig_xscale = -image_xscale;
 enum e_state
 {
 	idle,
-	chase
+	chase,
+	goback
 }
 
 isChasing = false;

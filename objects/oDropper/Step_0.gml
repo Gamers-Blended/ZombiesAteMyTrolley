@@ -2,8 +2,13 @@
 
 // Level selector
 var numberofItems = 1
-	
-if (global.level == 1) or (global.level == 0)
+
+if (global.level == 0)
+{
+	numberofItems = 1
+}
+
+if (global.level == 1)
 {
 	numberofItems = 2
 }
@@ -23,93 +28,37 @@ if num<5
 	xp = irandom_range(750,2100);
 	yp = 100;
 	
-	// Level 1
-	if (global.level == 1) or (global.level == 0)
+	// Level Selector
+	if (global.level == 1) or (global.level == 2)
 	{
-		// Randomly generate id for items
-		if ((!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource)))
-		{
-			r = irandom_range(1,3);
-		} else { 
-			r = irandom_range(1,2);
-		}
-		
-		if r = 1
-		{
-			makethis = oListed;
-		}	
-		else if r = 2
-		{
-			makethis = oIrrelevant;
-		}
-		else if r = 3
-		{
-			makethis = oToiletPaper;
-		}
+		r = irandom_range(1,2);
+	}
+	else if (global.level == 3)
+	{
+		r = irandom_range(1,3);
 	}
 	
-	
-		// Level 2
-	if (global.level == 2)
+	// Items
+	if r = 1
 	{
-		// Randomly generate id for items
-		if ((!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource)))
-		{
-			r = irandom_range(1,4);
-		} else { 
-			r = irandom_range(1,3);
-		}
-		
-		if r = 1
-		{
-			makethis = oListed;
-		}	
-		else if r = 2
-		{
-			makethis = oIrrelevant;
-		}
-		else if r = 3
-		{
 		makethis = oPotatoChips;
-		}
-		else if r = 4
-		{
-			makethis = oToiletPaper;
-		}
+	}	
+	else if r = 2
+	{
+		makethis = oIrrelevant;
 	}
-	
-	// Level 3
-	if (global.level == 3)
+	else if r = 3
 	{
-		// Randomly generate id for items
-		if ((!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource)))
-		{
-			r = irandom_range(1,5);
-		} else { 
-			r = irandom_range(1,4);
-		}
-		
-		if r = 1
-		{
-			makethis = oListed;
-		}	
-		else if r = 2
-		{
-			makethis = oIrrelevant;
-		}
-		else if r = 3
-		{
-		makethis = oPotatoChips;
-		}
-		else if r = 4
-		{
+		makethis = oListed;
+	}
+	else if r = 4
+	{
 		makethis = oBanana;
-		}
-		else if r = 5
-		{
-			makethis = oToiletPaper;
-		}
 	}
+		
+		// Spawns the items
+	item = instance_create_layer(xp,yp,"instances",makethis);
+}
 	
 	/*
 	// Randomly generate id for items
@@ -141,9 +90,7 @@ if num<5
 	}
 	*/
 
-	// Spawns the items
-	item = instance_create_layer(xp,yp,"instances",makethis);
-}
+
 
 // Toilet Paper code
 /*

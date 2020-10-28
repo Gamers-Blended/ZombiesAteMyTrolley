@@ -5,20 +5,21 @@ vsp = vsp + global.levelGrv;
 
 hsp = move * walksp;
 
+
+
 // Switch between idle and chase
 switch (state)
 {
 	case e_state.idle:
 	{
 		isChasing = false;
-		// Return to rest spot
-		if (distance_to_object(o) < 180) state = e_state.chase;
 		hsp = 0;
 		vsp = (min(7,vsp+0.05));
 		// inside aggro range (Adjust range here!)
 		if (distance_to_object(oPlayer) < 180) state = e_state.chase;
 	}
 	break;
+	
 	case e_state.chase:
 	{
 		if (instance_exists(oPlayer))
@@ -30,15 +31,35 @@ switch (state)
 			// Update facing direction
 			image_xscale = orig_xscale*sign(hsp);
 			// outside aggro range
-			if (distance_to_object(oPlayer) > 165) state = e_state.idle;
+			//if (distance_to_object(oPlayer) > 165) state = e_state.idle;
+			if (distance_to_object(oPlayer) > 165) state = e_state.goback;
 		}
 		else
 		{
 			state = e_state.idle;
 		}
-	}
-		
 	break;
+	}
+	case e_state.goback:
+	{
+		if (instance_exists(oRestSpot))
+		{
+			isChasing = false;
+			dir = sign(oRestSpot.x - x);
+			hsp = dir * 2;
+			vsp = (min(7,vsp+0.05));
+			// Update facing direction
+			image_xscale = orig_xscale*sign(hsp);
+			// Return to rest spot
+			//if (distance_to_object(oPlayer) > 165) state = e_state.idle;
+			if (distance_to_object(oRestSpot) = 0) state = e_state.idle;
+		}
+		else
+		{
+			state = e_state.idle;
+		}
+		break;
+	}
 }
 
 
