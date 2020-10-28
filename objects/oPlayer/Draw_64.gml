@@ -25,4 +25,10 @@ if (shouldShowInventory) {
 
 // Inventory Bar
 draw_sprite(sInventoryBorder,0,x,y-80);
-draw_sprite_stretched(sInventory,0,x+10,y-100, (global.inventory_amt/max_inventory_size)*weight_width, weight_height);
+
+// Bars
+for (var i = 0; i < global.inventory_amt; i++)
+{
+	draw_sprite(sInventory,0,x+15*i,y-80);
+}
+	

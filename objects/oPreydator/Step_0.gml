@@ -10,6 +10,9 @@ switch (state)
 {
 	case e_state.idle:
 	{
+		isChasing = false;
+		// Return to rest spot
+		if (distance_to_object(o) < 180) state = e_state.chase;
 		hsp = 0;
 		vsp = (min(7,vsp+0.05));
 		// inside aggro range (Adjust range here!)
@@ -20,6 +23,7 @@ switch (state)
 	{
 		if (instance_exists(oPlayer))
 		{
+			isChasing = true;
 			dir = sign(oPlayer.x - x);
 			hsp = dir * 2;
 			vsp = (min(7,vsp+0.05));
