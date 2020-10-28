@@ -27,17 +27,6 @@ with (oPlayer)
 {
 	if (levelcleared)
 	{
-		if (global.level == 0) 
-		{
-			SlideTransition(TRANS_MODE.GOTO, Room1);
-		}
-		if (global.level == 1) 
-		{
-			SlideTransition(TRANS_MODE.GOTO, Room2);
-		}
-		else if (global.level == 2)
-		{
-			SlideTransition(TRANS_MODE.GOTO, Room3);
-		}
+		room_goto_next();
 	}
 }

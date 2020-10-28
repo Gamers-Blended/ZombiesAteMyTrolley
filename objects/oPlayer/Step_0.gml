@@ -77,8 +77,8 @@ if (inTime > 0) {
 	inTime = 0;
 } else if (inTime == 0) {
 	// Adjust position here!
-	x = oDepositZone.x+25;
-	y = oDepositZone.y-150;
+	x = oDepositZone.x-10;
+	y = oDepositZone.y-50;
 	// Flash effect
 	flashAlpha = 1;
 	// Reset undo timer
