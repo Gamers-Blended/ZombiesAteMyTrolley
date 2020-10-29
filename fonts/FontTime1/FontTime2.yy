@@ -131,7 +131,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "FontTime",
+  "name": "FontTime2",
   "tags": [],
   "resourceType": "GMFont",
 }

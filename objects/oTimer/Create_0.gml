@@ -1,5 +1,5 @@
 /// @description Level selector
-
+/*
 if (global.level == 0)
 {
 	myTime = 60*2;
@@ -19,5 +19,6 @@ else if (global.level == 3)
 {
 	myTime = 60*5;
 }
+*/
 
 myTime = 60*20

@@ -5,7 +5,7 @@
   "pointRounding": 0,
   "fontName": "Lato",
   "styleName": "Bold",
-  "size": 22.0,
+  "size": 20.0,
   "bold": true,
   "italic": false,
   "charset": 0,
@@ -123,7 +123,7 @@
     {"lower":32,"upper":127,},
     {"lower":9647,"upper":9647,},
   ],
-  "regenerateBitmap": true,
+  "regenerateBitmap": false,
   "canGenerateBitmap": true,
   "maintainGms1Font": false,
   "parent": {
@@ -131,7 +131,7 @@
     "path": "folders/Fonts.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Font1",
+  "name": "FontTime1",
   "tags": [],
   "resourceType": "GMFont",
 }

@@ -6,9 +6,13 @@ y_pos = oShoppingList.y;
 
 draw_sprite(sTextBox, 0,x_pos,oShoppingList.y);
 
+draw_set_font(Font1);
+draw_set_color(c_black);
+
 // Inventory
 // Guide: draw_text_transformed(x, y, string, xscale, yscale, angle);
-draw_text_transformed(x_pos,oShoppingList.y,"Currently Holding",1.5,1.5,0);
+//draw_text_transformed(x_pos+100,oShoppingList.y,"Currently Holding",2,2,0);
+draw_text(x_pos+120,y_pos,"Currently Holding");
 
 if (shouldShowInventory) {
 	var len = ds_list_size(global.inventoryItems);
@@ -16,9 +20,10 @@ if (shouldShowInventory) {
 		var key = ds_list_find_value(global.inventoryItems, i);
 		var value = ds_map_find_value(global.inventory, key);
 		
-		draw_sprite(object_get_sprite(key), 0,x_pos+40,y_pos+64+60*i);
-		//draw_text(32,64+ 20*i, ": " + string(value));
-		draw_text_transformed(x_pos+32+40,y_pos+64+60*i,": "+string(value), 1.5, 1.5,0);
+		draw_sprite(object_get_sprite(key),0,x_pos+32,y_pos+64+80*i);
+		
+		draw_sprite(object_get_sprite(key),0,x_pos+32,y_pos+64+80*i);
+		draw_text(x_pos+100,y_pos+64+60*i,": "+string(value));
 	}
 }
 
