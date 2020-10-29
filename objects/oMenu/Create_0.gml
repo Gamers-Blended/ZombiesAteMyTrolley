@@ -5,7 +5,7 @@ menu_x = x;
 menu_y = y;
 button_h = 64;
 
-// buttos
+// buttons
 button[0] = "Start Game";
 button[1] = "Instructions";
 button[2] = "Credits";
