@@ -10,6 +10,9 @@ move = 1;
 
 orig_xscale = -image_xscale;
 
+trigger_dist = 500;
+chasing_dist = 400;
+
 enum e_state
 {
 	idle,
