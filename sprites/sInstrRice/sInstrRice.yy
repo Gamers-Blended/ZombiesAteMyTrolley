@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0b52cf82-482f-4967-82ec-a4276fe4efc7","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Project",
-    "path": "Project.yyp",
+    "name": "Menus",
+    "path": "folders/Sprites/Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "sInstrRice",

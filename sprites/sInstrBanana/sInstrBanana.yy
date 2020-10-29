@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"787fd524-51d6-4159-9718-c6554bbb9f6e","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Project",
-    "path": "Project.yyp",
+    "name": "Menus",
+    "path": "folders/Sprites/Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "sInstrBanana",

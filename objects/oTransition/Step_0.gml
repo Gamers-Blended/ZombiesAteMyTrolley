@@ -50,6 +50,6 @@ if keyboard_check_pressed(vk_enter)
 {
 	if (room==Instruction1) or (room==Instruction2) or (room==Intro1) or (room==Intro2) or (room==Intro3)
 	{
-	room_goto_next();
+		//room_goto_next();
 	}
 }
