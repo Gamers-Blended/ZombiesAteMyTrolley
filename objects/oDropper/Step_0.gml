@@ -1,6 +1,7 @@
 /// @description Item spawner
 
 // Level selector
+/*
 var numberofItems = 1
 
 if (global.level == 1) or (global.level == 2)
@@ -14,7 +15,7 @@ else if (global.level == 3) or (global.level == 4) or (global.level == 5) or (gl
 else if (global.level == 7) or (global.level == 8) or (global.level == 9)
 {
 	numberofItems = 4
-}
+}*/
 
 num = irandom_range(1,100);
 if num<3
