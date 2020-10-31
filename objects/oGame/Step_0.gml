@@ -8,8 +8,20 @@ if (global.gamePause)
 	}
 }
 
-// Teleport back
-if (inTime > 0) {
+if (isAlive && keyboard_check_pressed(vk_escape)) 
+{
+    paused = true; // Not a toggle to simplify things
+    
+	if (paused == false)
+        {
+	        instance_activate_all();
+	        surface_free(paused_surf);
+            paused_surf = -1;
+        }
+}
+
+// Undo Time
+if (inTime > 0 && !paused) {
 	inTime=inTime-delta_time/1000000
 } else if (inTime < 0) {
 	inTime = 0;

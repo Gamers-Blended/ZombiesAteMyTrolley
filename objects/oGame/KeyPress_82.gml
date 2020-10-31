@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Restart Level
 // You can write your code in this editor
 if (global.level == 0)
 {

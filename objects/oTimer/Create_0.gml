@@ -16,3 +16,4 @@ switch(global.level) {
 }
 
 myTime = seconds * mins
+isAlive = true;
