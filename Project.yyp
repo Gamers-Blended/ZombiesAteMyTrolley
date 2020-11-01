@@ -35,6 +35,7 @@
     {"id":{"name":"oPotatoChips","path":"objects/oPotatoChips/oPotatoChips.yy",},"order":0,},
     {"id":{"name":"oNewBanana","path":"objects/oNewBanana/oNewBanana.yy",},"order":7,},
     {"id":{"name":"oItem","path":"objects/oItem/oItem.yy",},"order":5,},
+    {"id":{"name":"font_menu_title","path":"fonts/font_menu_title/font_menu_title.yy",},"order":4,},
     {"id":{"name":"oPlayerAfterImage","path":"objects/oPlayerAfterImage/oPlayerAfterImage.yy",},"order":9,},
     {"id":{"name":"sCredits","path":"sprites/sCredits/sCredits.yy",},"order":13,},
     {"id":{"name":"sTextBox","path":"sprites/sTextBox/sTextBox.yy",},"order":7,},

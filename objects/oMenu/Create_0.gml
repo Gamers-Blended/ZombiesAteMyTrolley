@@ -1,9 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-menu_x = x;
-menu_y = y;
+menu_x = room_width/2;
+menu_y = room_height/2 - 200;
 button_h = 64;
+
+// title
+title = "ZOMBIES ATE MY CART!"
+title_h = 200;
 
 // buttons
 button[0] = "Start Game";

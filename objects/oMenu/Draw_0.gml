@@ -1,6 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+// Draw title
+draw_set_font(font_menu_title);
+draw_set_halign(fa_center);
+draw_set_color(c_white);
+draw_text(menu_x, menu_y, title);
+
+// Draw buttons
 var i = 0;
 repeat(buttons) {
 	draw_set_font(font_main_menu);
@@ -9,6 +16,6 @@ repeat(buttons) {
 	
 	if (menu_index == i) draw_set_color(c_red);
 	
-	draw_text(menu_x, menu_y + button_h * i, button[i]);
+	draw_text(menu_x, menu_y + title_h + button_h * i, button[i]);
 	i ++;
 }

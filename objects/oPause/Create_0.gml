@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-menu_x = x;
-menu_y = y;
-button_h = 64;
+menu_x = room_width/2;
+menu_y = room_height/2 - 200;
+button_h = 80;
 
 title = "- PAUSED -"
-title_h = 128;
+title_h = 80 + 160;
 
 // buttons
 button[0] = "Resume";
