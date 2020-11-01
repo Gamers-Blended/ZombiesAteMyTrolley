@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a4acda2-8950-4043-97c1-fc0cd9667961","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Project",
-    "path": "Project.yyp",
+    "name": "Menus",
+    "path": "folders/Sprites/Menus.yy",
   },
   "resourceVersion": "1.0",
   "name": "sInstrNarrative",

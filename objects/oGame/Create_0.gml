@@ -43,8 +43,8 @@ else if (room == Room9)
 global.gamePause = false;
 
 // 10 seconds time
-inTime_max = 10;
-inTime = 10;
+inTime_max = 15;
+inTime = 15;
 
 time_width = 500;
 time_height = 36;

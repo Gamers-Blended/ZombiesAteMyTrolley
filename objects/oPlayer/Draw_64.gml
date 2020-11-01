@@ -1,10 +1,19 @@
 /// @description Draws Inventory List & Bar
 
 // Relative to shopping list
-x_pos = oShoppingList.x+350;
-y_pos = oShoppingList.y;
+if instance_exists(oShoppingList)
+{
+	x_pos = oShoppingList.x+350;
+	y_pos = oShoppingList.y;
+}
 
-draw_sprite(sTextBox, 0,x_pos,oShoppingList.y);
+else if instance_exists(oShoppingListFinal)
+{
+	x_pos = oShoppingListFinal.x+350;
+	y_pos = oShoppingListFinal.y;
+}
+
+draw_sprite(sTextBox, 0,x_pos,y_pos);
 
 draw_set_font(Font1);
 draw_set_color(c_black);

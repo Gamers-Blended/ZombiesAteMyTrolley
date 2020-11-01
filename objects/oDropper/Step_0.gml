@@ -16,9 +16,9 @@ else if (global.level == 7) or (global.level == 8) or (global.level == 9)
 {
 	numberofItems = 4
 }*/
-
+//spawn rate
 num = irandom_range(1,100);
-if num<3
+if num<5
 {
 	// Spawn region
 	xp = irandom_range(750,2100);
