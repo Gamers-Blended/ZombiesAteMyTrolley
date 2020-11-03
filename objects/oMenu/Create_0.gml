@@ -14,3 +14,10 @@ buttons = array_length_1d(button);
 
 menu_index = 0;
 last_selected = 0;
+
+is_in_menu = true;
+
+// debouncing
+isPressable = false;
+buttonDelay = 20;
+alarm[0] = buttonDelay;

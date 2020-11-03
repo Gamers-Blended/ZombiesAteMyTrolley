@@ -7,7 +7,21 @@ if (isPressable) {
 	
 		// back
 		case 0:
-			if (page_index == 0) room_goto(Menu);
+			if (page_index == 0) {
+				
+				// Return control to menu parent
+				// Note that it is assumed you can only enter instructions from 
+				// Main Menu or Pause screen. Hence these objects NEED to have
+				// oMenuParent as the parent.
+				oMenuParent.is_in_menu = true;
+				
+				// Debounce for parent
+				oMenuParent.isPressable = false;
+				oMenuParent.alarm[0] = oMenuParent.buttonDelay;
+				
+				// Destroy this instance
+				instance_destroy();
+			}
 			page_index -= 1;
 			break;
 	

@@ -1,11 +1,16 @@
 /// @description Draws countdown
 
-draw_sprite(sTimerBox,0,x,y);
-draw_set_font(FontTime1);
-draw_set_color(c_black);
-draw_text(x,y-30,"Time Left:");
+if (isAlive) {
+	// Text box
+	draw_sprite(sTimerBox,0,x,y);
+	
+	// Time Left Text
+	draw_set_font(FontTime1);
+	draw_set_color(c_black);
+	draw_text(x-65,y-30,"Time Left:");
 
-
-draw_set_font(FontTime2);
-draw_set_color(c_black);
-draw_text(x,y,string(myTime))
+	// Time left
+	draw_set_font(FontTime2);
+	draw_set_color(c_black);
+	draw_text(x-55,y,string(global.myTime))
+}

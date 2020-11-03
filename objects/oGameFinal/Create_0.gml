@@ -4,6 +4,11 @@ global.clearLevel = 1;
 
 global.needSpawn = false;
 
+paused = false;
+paused_surf = -1;
+isAlive = true;
+
+
 // 10 seconds time
 inTime_max = 10;
 inTime = 10;
@@ -30,6 +35,7 @@ var value1 = 1;
 ds_map_add(global.shopList, key1, value1);
 ds_list_add(global.ShopListItems, key1);
 
+global.createList = false;
 
 // Even level cleared
 if (global.clearLevel %2 == 0)

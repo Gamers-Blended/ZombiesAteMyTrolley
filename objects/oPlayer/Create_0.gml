@@ -56,8 +56,8 @@ shouldShowInventory = true;
 
 
 // 10 seconds time
-inTime_max = 10;
-inTime = 10;
+//inTime_max = oGame.inTime_max;
+//inTime = 10;
 
 // Flashing
 flashAlpha = 0;

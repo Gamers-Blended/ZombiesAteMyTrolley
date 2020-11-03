@@ -38,11 +38,13 @@ else if (room == Room9)
 	global.level = 9;
 }
 
-
-
 global.gamePause = false;
 
-// 10 seconds time
+paused = false;
+paused_surf = -1;
+isAlive = true;
+
+// Undo Timer
 inTime_max = 15;
 inTime = 15;
 

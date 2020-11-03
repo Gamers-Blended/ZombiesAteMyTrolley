@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Instructions",
-    "path": "folders/Objects/Instructions.yy",
+    "path": "folders/Objects/MenuScreens/Instructions.yy",
   },
   "resourceVersion": "1.0",
   "name": "oInstructionsPage",

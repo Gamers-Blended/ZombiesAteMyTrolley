@@ -1,7 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var i = 0;
+// Draw Background
+draw_set_color(c_black);
+draw_rectangle(0, 0, room_width, room_height, false);
 
 // Draw Images
 switch(page_index) {
@@ -25,6 +27,7 @@ if (page_index == 2) {
 	buttons = array_length_1d(button);
 }
 
+var i = 0;
 repeat(buttons) {
 	draw_set_font(font_main_menu);
 	draw_set_halign(fa_center);

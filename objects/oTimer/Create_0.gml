@@ -15,4 +15,5 @@ switch(global.level) {
 		break;
 }
 
-myTime = seconds * mins
+global.myTime = seconds * mins
+isAlive = true;

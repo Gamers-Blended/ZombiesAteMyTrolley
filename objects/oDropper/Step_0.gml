@@ -1,24 +1,18 @@
 /// @description Item spawner
 
-// Level selector
-/*
-var numberofItems = 1
+// Drop rate
+dropRate = 1;
+if (global.myTime <= 100)
+{
+	dropRate = 7;
+}
+else
+{
+	dropRate = 5;
+}
 
-if (global.level == 1) or (global.level == 2)
-{
-	numberofItems = 2
-}
-else if (global.level == 3) or (global.level == 4) or (global.level == 5) or (global.level == 6)
-{
-	numberofItems = 3
-}
-else if (global.level == 7) or (global.level == 8) or (global.level == 9)
-{
-	numberofItems = 4
-}*/
-//spawn rate
 num = irandom_range(1,100);
-if num<5
+if num<dropRate
 {
 	// Spawn region
 	xp = irandom_range(750,2100);

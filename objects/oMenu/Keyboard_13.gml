@@ -1,15 +1,21 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-switch(menu_index) {
-	case 0:
-		//room_goto(Instruction1);
-		room_goto(Room1);
-		break;
-	case 1:
-		room_goto(InstructionsPage);
-		break;
-	case 3:
-		game_end();
-		break;
+if (is_in_menu && isPressable) {
+	switch(menu_index) {
+		case 0:
+			//room_goto(Instruction1);
+			room_goto(Room1);
+			break;
+		case 1:
+			//room_goto(InstructionsPage);
+			instance_create_layer(room_width/2, room_height/2, "Instructions", oInstructionsPage);
+			is_in_menu = false;
+			break;
+		case 2:
+			room_goto(Credits);
+			break;
+		case 3:
+			game_end();
+			break;
+	}
 }

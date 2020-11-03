@@ -14,7 +14,6 @@ if place_meeting(x, y + 1, oPlayer) {
             // Remove items in shopping list based on key
             if (ds_map_exists(global.shopList, key)) {
                 shop_value = shop_value - value;
-				//global.left_amt -= value;
                 if shop_value < 0 // Set negative quantities to 0
                 {
                     shop_value = 0;

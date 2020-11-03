@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Spawns rice droppings
 
 // Inherit the parent event
 event_inherited();

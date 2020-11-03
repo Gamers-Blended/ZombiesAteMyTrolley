@@ -70,7 +70,14 @@ if (isTeleporting) {
 
 event_inherited();
 
-// Teleport back
+// Undo Teleportation
+if(instance_exists(oGame)){
+	inTime = oGame.inTime;
+}
+else if (instance_exists(oGameFinal)){
+	inTime = oGameFinal.inTime;
+}
+
 if (inTime > 0) {
 	inTime=inTime-delta_time/1000000
 } else if (inTime < 0) {

@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
-var effect_duration = 500;
+/// @description Rice effect
+var effect_duration = 600;
 
+// Time left behind self-destruct
 alarm[0] = effect_duration;

@@ -1,7 +1,7 @@
 /// @description Check condition
 var levelcleared = false;
 
-var totalcount = 0;
+totalcount = 0;
 
 var len = ds_list_size(global.ShopListItems);
 for (var i = 0; i < len; i++)
@@ -28,6 +28,11 @@ with (oPlayer)
 {
 	if (levelcleared)
 	{
+		global.createList = true;
+	}
+}
+		
+		/*
 		// Shopping List
 		global.shopList = ds_map_create();
 		global.ShopListItems = ds_list_create();
@@ -103,4 +108,5 @@ with (oPlayer)
 	}
 }
 
+*/
 
