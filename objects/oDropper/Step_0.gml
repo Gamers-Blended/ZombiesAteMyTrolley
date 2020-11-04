@@ -2,9 +2,9 @@
 
 // Drop rate
 dropRate = 1;
-if (global.myTime <= 30)
+if (global.myTime <= 100)
 {
-	dropRate = 10;
+	dropRate = 7;
 }
 else
 {
@@ -33,27 +33,26 @@ if num<dropRate
 		r = irandom_range(1,4);
 	}
 	
+	// Items
+	if r = 1
+	{
+		makethis = oPotatoChips;
+	}	
+	else if r = 2
+	{
+		makethis = oIrrelevant;
+	}
+	else if r = 3
+	{
+		makethis = oListed;
+	}
+	else if r = 4
+	{
+		makethis = oBanana;
+	}
+		
 	if (global.level != 6)
 	{
-		
-		// Items
-		if r = 1
-		{
-			makethis = oPotatoChips;
-		}	
-		else if r = 2
-		{
-			makethis = oIrrelevant;
-		}
-		else if r = 3
-		{
-			makethis = oListed;
-		}
-		else if r = 4
-		{
-			makethis = oBanana;
-		}
-		
 		// Spawns the items
 		item = instance_create_layer(xp,yp,"instances",makethis);
 	}
@@ -91,7 +90,6 @@ if num<5
 		
 		// Spawns the items
 		item = instance_create_layer(xp,yp,"instances",makethis);
-		//item = instance_create(xp,yp,makethis);
 		
 	}
 }
