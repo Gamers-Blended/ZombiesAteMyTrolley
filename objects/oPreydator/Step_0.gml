@@ -14,6 +14,7 @@ switch (state)
 	{
 		isChasing = false;
 		hsp = 0;
+		image_speed = hsp/3;
 		vsp = (min(7,vsp+0.05));
 		// inside aggro range (Adjust range here!)
 		if (distance_to_object(oPlayer) < trigger_dist) state = e_state.chase;
@@ -27,6 +28,7 @@ switch (state)
 			isChasing = true;
 			dir = sign(oPlayer.x - x);
 			hsp = dir * 2;
+			image_speed = hsp/3;
 			vsp = (min(7,vsp+0.05));
 			// Update facing direction
 			image_xscale = orig_xscale*sign(hsp);
@@ -47,6 +49,7 @@ switch (state)
 			isChasing = false;
 			dir = sign(oRestSpot.x - x);
 			hsp = dir * 2;
+			image_speed = hsp/3;
 			vsp = (min(7,vsp+0.05));
 			// Update facing direction
 			image_xscale = orig_xscale*sign(hsp);

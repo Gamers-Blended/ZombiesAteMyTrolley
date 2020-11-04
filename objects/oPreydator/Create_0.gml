@@ -21,3 +21,5 @@ enum e_state
 }
 
 isChasing = false;
+
+image_speed = 0;
