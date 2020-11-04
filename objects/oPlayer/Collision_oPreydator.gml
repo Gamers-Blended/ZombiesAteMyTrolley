@@ -60,8 +60,8 @@ if (!isInvulnerable) {
 				ScreenShake(12,10);
 				//instance_destroy();
 				// teleport back emptyhanded
-				x = oDepositZone.x+25;
-				y = oDepositZone.y-200;
+				x = oDepositZone.x-10;
+				y = oDepositZone.y-50;
 				flashAlpha = 1;
 		}
 	}

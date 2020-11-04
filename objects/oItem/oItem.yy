@@ -26,7 +26,6 @@
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oGround","path":"objects/oGround/oGround.yy",},"parent":{"name":"oItem","path":"objects/oItem/oItem.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"parent":{"name":"oItem","path":"objects/oItem/oItem.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oZombie1","path":"objects/oZombie1/oZombie1.yy",},"parent":{"name":"oItem","path":"objects/oItem/oItem.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oDoor","path":"objects/oDoor/oDoor.yy",},"parent":{"name":"oItem","path":"objects/oItem/oItem.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"oWall","path":"objects/oWall/oWall.yy",},"parent":{"name":"oItem","path":"objects/oItem/oItem.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [
