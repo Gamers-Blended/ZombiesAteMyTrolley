@@ -1,5 +1,6 @@
 global.levelGrv = 0.3;
 
+/*
 if (room == Room1)
 {
 	global.level = 1;
@@ -37,6 +38,7 @@ else if (room == Room9)
 {
 	global.level = 9;
 }
+*/
 
 global.gamePause = false;
 
