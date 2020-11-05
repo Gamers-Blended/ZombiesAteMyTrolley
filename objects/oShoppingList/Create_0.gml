@@ -36,6 +36,9 @@ else if (room == Room8)
 else if (room == Room9)
 {
 	global.level = 9;
+} else if (room == Room10)
+{
+  global.level = 10;
 }
 
 if (global.level == 1)
@@ -131,7 +134,7 @@ else if (global.level == 6)
 	ds_list_add(global.ShopListItems, key2);
 }
 
-else if (global.level == 7) or (global.level == 8) or (global.level == 9) 
+else if (global.level == 7) or (global.level == 8) or (global.level == 9) or (global.level == 10)
 {
 	// Shopping List
 	global.shopList = ds_map_create();

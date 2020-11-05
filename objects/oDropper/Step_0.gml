@@ -33,7 +33,7 @@ if num < dropRate
 		r = irandom_range(1,3);
 	}
 	// Skip level 6
-	else if (global.level == 7) or (global.level == 8) or (global.level == 9)
+	else if (global.level == 7) or (global.level == 8) or (global.level == 9) or (global.level == 10)
 	{
 		r = irandom_range(1,4);
 	}
