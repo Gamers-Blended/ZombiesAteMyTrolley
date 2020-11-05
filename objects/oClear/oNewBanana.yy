@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "sJumpPoint",
-    "path": "sprites/sJumpPoint/sJumpPoint.yy",
-  },
+  "spriteId": null,
   "solid": false,
-  "visible": false,
+  "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oNewElementPage",
+    "path": "objects/oNewElementPage/oNewElementPage.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"oNewBanana","path":"objects/oNewBanana/oNewBanana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GameObjects",
-    "path": "folders/Objects/GameObjects.yy",
+    "name": "Instructions",
+    "path": "folders/Objects/MenuScreens/Instructions.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oJumpPoint",
+  "name": "oNewBanana",
   "tags": [],
   "resourceType": "GMObject",
 }
