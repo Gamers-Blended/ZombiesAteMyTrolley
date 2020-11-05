@@ -27,6 +27,7 @@
     {"id":{"name":"Room7","path":"rooms/Room7/Room7.yy",},"order":36,},
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},"order":5,},
     {"id":{"name":"Room3old","path":"rooms/Room3old/Room3old.yy",},"order":7,},
+    {"id":{"name":"Sprite47","path":"sprites/Sprite47/Sprite47.yy",},"order":15,},
     {"id":{"name":"oBanana","path":"objects/oBanana/oBanana.yy",},"order":5,},
     {"id":{"name":"NewItemRice","path":"rooms/NewItemRice/NewItemRice.yy",},"order":12,},
     {"id":{"name":"sBoss","path":"sprites/sBoss/sBoss.yy",},"order":18,},
