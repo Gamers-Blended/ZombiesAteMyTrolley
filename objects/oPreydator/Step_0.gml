@@ -81,7 +81,10 @@ if (place_meeting(round(x+hsp),round(y),oWall))
 	}
 	//move = -move;
 }
-x = x + hsp;
+
+if (!is_stunned) {
+	x = x + hsp;
+}
 
 // Vertical collision
 if (place_meeting(x,y+vsp,oWall))
