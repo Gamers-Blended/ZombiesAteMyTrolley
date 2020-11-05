@@ -13,4 +13,5 @@ shake_length = 0;
 shake_magnitude = 0;
 // when decrease to 0, stop shaking
 shake_remain = 0;
-buff = 32;
+//buff = 32;
+buff = 20;

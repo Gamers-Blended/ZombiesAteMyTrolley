@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 1598,
-  "bbox_top": 1,
-  "bbox_bottom": 876,
+  "bbox_right": 2499,
+  "bbox_top": 0,
+  "bbox_bottom": 999,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 1599,
-  "height": 877,
+  "width": 2500,
+  "height": 1000,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"4899d34c-1bda-4a7a-9fda-f872a88a367c","path":"sprites/sIntruction2/sIntruction2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"4899d34c-1bda-4a7a-9fda-f872a88a367c","path":"sprites/sIntruction2/sIntruction2.yy",},"LayerId":{"name":"2f7c4790-f6b9-48e9-a1f5-f554ab9662ea","path":"sprites/sIntruction2/sIntruction2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sIntruction2","path":"sprites/sIntruction2/sIntruction2.yy",},"resourceVersion":"1.0","name":"4899d34c-1bda-4a7a-9fda-f872a88a367c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1e415092-5dbf-4f4a-93e2-8ed13e710ec4","path":"sprites/sIntruction2/sIntruction2.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1e415092-5dbf-4f4a-93e2-8ed13e710ec4","path":"sprites/sIntruction2/sIntruction2.yy",},"LayerId":{"name":"4653abef-5894-41ff-94f1-4bdabc435903","path":"sprites/sIntruction2/sIntruction2.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sIntruction2","path":"sprites/sIntruction2/sIntruction2.yy",},"resourceVersion":"1.0","name":"1e415092-5dbf-4f4a-93e2-8ed13e710ec4","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sIntruction2","path":"sprites/sIntruction2/sIntruction2.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"58dedea0-9c91-48e4-b0f5-e35450e7711c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"4899d34c-1bda-4a7a-9fda-f872a88a367c","path":"sprites/sIntruction2/sIntruction2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"b9eba8cb-91b6-4399-91e9-56f176e8eb27","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1e415092-5dbf-4f4a-93e2-8ed13e710ec4","path":"sprites/sIntruction2/sIntruction2.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -54,8 +54,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 799,
-    "yorigin": 438,
+    "xorigin": 1250,
+    "yorigin": 500,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sIntruction2","path":"sprites/sIntruction2/sIntruction2.yy",},
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2f7c4790-f6b9-48e9-a1f5-f554ab9662ea","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"4653abef-5894-41ff-94f1-4bdabc435903","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Menus",

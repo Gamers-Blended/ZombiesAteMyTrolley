@@ -1,5 +1,7 @@
 /// @description Restart Level
 // You can write your code in this editor
+SlideTransition(TRANS_MODE.GOTO, room);
+/*
 if (global.level == 0)
 {
 	SlideTransition(TRANS_MODE.RESTART);
@@ -18,3 +20,4 @@ else if (global.level == 3)
 {
 	SlideTransition(TRANS_MODE.GOTO, Room3);
 }
+*/
