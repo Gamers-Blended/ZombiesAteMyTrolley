@@ -63,6 +63,7 @@
     {"id":{"name":"sDepositZoneGlow","path":"sprites/sDepositZoneGlow/sDepositZoneGlow.yy",},"order":17,},
     {"id":{"name":"FontList","path":"fonts/FontList/FontList.yy",},"order":4,},
     {"id":{"name":"oStaticParent","path":"objects/oStaticParent/oStaticParent.yy",},"order":3,},
+    {"id":{"name":"sMenuBox","path":"sprites/sMenuBox/sMenuBox.yy",},"order":28,},
     {"id":{"name":"Room6","path":"rooms/Room6/Room6.yy",},"order":35,},
     {"id":{"name":"Room8","path":"rooms/Room8/Room8.yy",},"order":37,},
     {"id":{"name":"Room9","path":"rooms/Room9/Room9.yy",},"order":38,},

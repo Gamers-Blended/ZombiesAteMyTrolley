@@ -12,3 +12,5 @@ repeat(buttons) {
 	draw_text(menu_x, menu_y + button_h * i, button[i]);
 	i ++;
 }
+
+//draw_sprite_ext(sMenuBox,0,x,y+64,0.7,0.7,0,c_white,0.8);
