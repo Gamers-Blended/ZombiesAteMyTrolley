@@ -88,13 +88,12 @@ if (inTime > 0) {
 	y = oDepositZone.y-50;
 	// Flash effect
 	flashAlpha = 1;
-	// Reset undo timer
-	inTime = 10;
+	// Reset undo timer is done in oGame
 }
 
 // Reduce Flash
 if (flashAlpha > 0){
-	flashAlpha -= 0.005;
+	flashAlpha -= 0.05;
 }
 /*
 

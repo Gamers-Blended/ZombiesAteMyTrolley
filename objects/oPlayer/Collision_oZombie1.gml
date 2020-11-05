@@ -62,6 +62,7 @@ if (!isInvulnerable) {
 			x = oDepositZone.x-10;
 			y = oDepositZone.y-50;
 			flashAlpha = 1;
+			oGame.inTime = oGame.inTime_max;
 		}
 	}
 }

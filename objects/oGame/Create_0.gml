@@ -47,8 +47,8 @@ paused_surf = -1;
 isAlive = true;
 
 // Undo Timer
-inTime_max = 15;
-inTime = 15;
+inTime_max = 10;
+inTime = inTime_max;
 
 time_width = 500;
 time_height = 36;

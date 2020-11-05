@@ -27,5 +27,5 @@ if (inTime > 0 && !paused) {
 	inTime = 0;
 } else if (inTime == 0) {
 	// Reset time bar
-	inTime = 15;
+	inTime = inTime_max;
 }
