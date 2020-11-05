@@ -1,4 +1,4 @@
-/*
+
 // Horizontal collision
 if (place_meeting(x+hsp,y,oWall))
 {
@@ -8,7 +8,6 @@ if (place_meeting(x+hsp,y,oWall))
 	}
 	hsp = 0;
 }
-x = x + hsp;
 
 // Vertical collision
 if (place_meeting(x,y+vsp,oWall))
@@ -18,11 +17,13 @@ if (place_meeting(x,y+vsp,oWall))
 		y = y + sign(vsp);
 	}
 	vsp = 0;
-}*/
+} else {
+	vsp = vsp + global.levelGrv * weight;	
+}
 
 x = x + hsp;
 
-vsp = vsp + global.levelGrv * weight;
+//vsp = vsp + global.levelGrv * weight;
 y = y + vsp;
 
 /*
