@@ -94,7 +94,6 @@ if (isChipsActive) {
 	var value1 = 0;
 	switch(global.level) {
 		case 1:
-		case 2:
 		case 3:
 		case 7:
 		case 10:
@@ -111,6 +110,7 @@ if (isChipsActive) {
 		case 14:
 			value1 = 3;
 			break;
+		case 2:
 		case 15:
 			value1 = 7;
 			break;
