@@ -37,5 +37,9 @@ else if (room == Room9)
 {
 	global.level = 9;
 }
+else if (room == Room10)
+{
+	global.level = 10;
+}
 
 value = global.level;

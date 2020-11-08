@@ -1,7 +1,12 @@
 /// @description Item spawner
+// NOTE: Room speed is at 60, so step runs 60 times a second.
+//       This means that irandom_range will check 60 times each second.
 
 // Drop rate
-dropRate = 1;
+dropRate = baseDropRate;
+dropRateMultiplier = 1;
+//new_width = sprite_width * image_xscale;
+
 if (global.myTime <= 30)
 {
 	dropRate = 10;
@@ -12,10 +17,10 @@ else
 }
 
 num = irandom_range(1,100);
-if num<dropRate
+if num < dropRate
 {
 	// Spawn region
-	xp = irandom_range(750,2100);
+	xp = irandom_range(x-sprite_width/2,x+sprite_width/2);
 	yp = 100;
 	
 	// Level Selector
@@ -59,14 +64,14 @@ if num<dropRate
 	}
 }
 
-r=0;
+r = 0;
 
 // Level 6
 num = irandom_range(1,100);
-if num<5
+if num < dropRate
 {
 	// Spawn region
-	xp = irandom_range(750,2100);
+	xp = irandom_range(x-sprite_width/2,x+sprite_width/2);
 	yp = 100;
 	
 	// Level Selector
@@ -91,7 +96,6 @@ if num<5
 		
 		// Spawns the items
 		item = instance_create_layer(xp,yp,"instances",makethis);
-		//item = instance_create(xp,yp,makethis);
 		
 	}
 }

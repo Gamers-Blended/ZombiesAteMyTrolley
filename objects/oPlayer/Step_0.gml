@@ -74,9 +74,6 @@ event_inherited();
 if(instance_exists(oGame)){
 	inTime = oGame.inTime;
 }
-else if (instance_exists(oGameFinal)){
-	inTime = oGameFinal.inTime;
-}
 
 if (inTime > 0) {
 	inTime=inTime-delta_time/1000000
@@ -88,13 +85,12 @@ if (inTime > 0) {
 	y = oDepositZone.y-50;
 	// Flash effect
 	flashAlpha = 1;
-	// Reset undo timer
-	inTime = 10;
+	// Reset undo timer is done in oGame
 }
 
 // Reduce Flash
 if (flashAlpha > 0){
-	flashAlpha -= 0.005;
+	flashAlpha -= 0.05;
 }
 /*
 

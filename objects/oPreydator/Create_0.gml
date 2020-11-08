@@ -22,4 +22,4 @@ enum e_state
 
 isChasing = false;
 
-image_speed = 0;
+image_speed = 0; // stops sprite from moving when stationary

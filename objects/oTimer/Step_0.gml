@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Timer + summons game over
 
 if (global.myTime > 0) {
 	global.myTime=global.myTime-delta_time/1000000

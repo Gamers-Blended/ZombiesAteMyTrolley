@@ -1,6 +1,14 @@
 /// @description Blank
 
-numberofItems = 1
+numberofItems = 1;
+isChipsActive = true;
+isIrrelevantActive = true;
+isBananaActive = false;
+isRiceActive = false;
+baseDropRate = 1; // Number of items per t second
+
+dropRateInterval = 15;
+dropperTimer = 0;
 
 switch (global.level) {
 	case (1):
@@ -16,7 +24,6 @@ switch (global.level) {
 	case (7):
 	case (8):
 	case (9):
-	case (10):
 		numberofItems = 4;
 		break;
 }

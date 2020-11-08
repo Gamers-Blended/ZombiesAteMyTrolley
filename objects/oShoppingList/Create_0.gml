@@ -36,10 +36,9 @@ else if (room == Room8)
 else if (room == Room9)
 {
 	global.level = 9;
-}
-else if (room == Room10)
+} else if (room == Room10)
 {
-	global.level = 10;
+  global.level = 10;
 }
 
 if (global.level == 1)
@@ -144,6 +143,7 @@ else if (global.level == 7) or (global.level == 8) or (global.level == 9) or (gl
 	// Define essential items
 	var key1 = oPotatoChips;
 	var value1 = 10;
+
 	var key2 = oListed;
 	var value2 = 5;
 	

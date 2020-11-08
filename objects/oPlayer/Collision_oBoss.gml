@@ -63,6 +63,9 @@ if (!isInvulnerable) {
 				x = oDepositZone.x-10;
 				y = oDepositZone.y-50;
 				flashAlpha = 1;
+				
+				// Resets undo timer
+				oGame.inTime = oGame.inTime_max;
 		}
 	}
 }

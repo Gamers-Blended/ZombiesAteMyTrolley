@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Draws shopping list
 
 
 //draw_sprite(sTextBox, 0,x,y);
@@ -26,4 +26,3 @@ if(instance_exists(oShoppingList)){
 		//draw_text_transformed(x+90,y+40+80*i,": "+string(value), 2, 2,0);
 	}
 }
-

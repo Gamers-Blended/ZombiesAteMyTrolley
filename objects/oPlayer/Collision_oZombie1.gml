@@ -54,14 +54,18 @@ if (!isInvulnerable) {
 				}
 			global.inventory_amt = 0;		
 			ScreenShake(12,10);
-
-		} else {
+		}
+		else
+		{
 			ScreenShake(12,10);
 			//instance_destroy();
 			// teleport back emptyhanded
 			x = oDepositZone.x-10;
 			y = oDepositZone.y-50;
 			flashAlpha = 1;
+			
+			// Resets undo timer
+			oGame.inTime = oGame.inTime_max;
 		}
 	}
 }

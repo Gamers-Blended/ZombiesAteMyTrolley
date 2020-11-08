@@ -7,12 +7,6 @@ if instance_exists(oShoppingList)
 	y_pos = oShoppingList.y;
 }
 
-else if instance_exists(oShoppingListFinal)
-{
-	x_pos = oShoppingListFinal.x+350;
-	y_pos = oShoppingListFinal.y;
-}
-
 // Text box
 //draw_sprite(sTextBox, 0,x_pos,y_pos);
 draw_sprite_ext(sTextBox,0,x_pos,y_pos,1,1,0,c_white,0.8);

@@ -1,5 +1,6 @@
 global.levelGrv = 0.3;
 
+/*
 if (room == Room1)
 {
 	global.level = 1;
@@ -37,10 +38,7 @@ else if (room == Room9)
 {
 	global.level = 9;
 }
-else if (room == Room10)
-{
-	global.level = 10;
-}
+*/
 
 global.gamePause = false;
 
@@ -49,8 +47,8 @@ paused_surf = -1;
 isAlive = true;
 
 // Undo Timer
-inTime_max = 15;
-inTime = 15;
+inTime_max = 10;
+inTime = inTime_max;
 
 time_width = 500;
 time_height = 36;
