@@ -53,13 +53,10 @@ y = y + vsp;
 
 if (key_left) {
 	dir = 0;
-	// Update facing direction
-	image_xscale = orig_xscale*sign(hsp);
-	
+	face_dir = -1;
 } else if (key_right) {
 	dir = 1;
-	// Update facing direction
-	image_xscale = orig_xscale*sign(hsp);
+	face_dir = 1;
 }
 
 // Move player when he has toilet paper protection
@@ -97,6 +94,8 @@ if (inTime > 0) {
 if (flashAlpha > 0){
 	flashAlpha -= 0.05;
 }
+
+image_xscale = orig_xscale*sign(face_dir);
 /*
 
 /// @description Player Movement

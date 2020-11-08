@@ -71,3 +71,5 @@ weight_width = 20;
 weight_height = 10;
 
 orig_xscale = image_xscale;
+
+face_dir = 1;
