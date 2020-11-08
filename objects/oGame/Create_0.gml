@@ -54,4 +54,4 @@ time_width = 500;
 time_height = 36;
 time_x = (2500/2) - (time_width/2);
 //time_x = (2500/2) - (time_width/2); // middle
-time_y = 35;
+time_y = 20;
