@@ -23,6 +23,47 @@ if num < dropRate
 	xp = irandom_range(x-sprite_width/2,x+sprite_width/2);
 	yp = 100;
 	
+	isChipsActive = global.isChipsActive;
+	isIrrelevantActive = global.isIrrelevantActive;
+	isBananaActive = global.isBananaActive;
+	isRiceActive = global.isRiceActive;
+	
+	// Generate random number to spawn
+	// numOfItems = isIrrelevantActive + isChipsActive + isRiceActive + isBananaActive;
+	r = irandom_range(1,numOfItems);
+	show_debug_message(numOfItems);
+	
+	// Initialialise makethis array
+	for (i = 0; i < numOfItems; i ++) {
+		if (isIrrelevantActive) {
+			makethis[i] = oIrrelevant;
+			isIrrelevantActive = false; // Prevent this from happening again
+		} else if (isChipsActive) {
+			makethis[i] = oPotatoChips;
+			show_debug_message(i);
+			isChipsActive = false; // Prevent this from happening again
+		} else if (isRiceActive) {
+			makethis[i] = oListed;
+			isRiceActive = false; // Prevent this from happening again
+		} else if (isBananaActive) {
+			makethis[i] = oBanana;
+			isBananaActive = false; // Prevent this from happening again
+		}
+	}
+	
+	// Spawns the items
+	item = instance_create_layer(xp,yp,"instances",makethis[r-1]);
+	
+}
+
+/*
+num = irandom_range(1,100);
+if num < dropRate
+{
+	// Spawn region
+	xp = irandom_range(x-sprite_width/2,x+sprite_width/2);
+	yp = 100;
+	
 	// Level Selector
 	if (global.level == 1) or (global.level == 2)
 	{
@@ -105,46 +146,4 @@ if (global.level == 6)
 		{
 			instance_destroy(oListed);
 		}	
-	
-	/*
-	// Randomly generate id for items
-	if ((!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource))) {
-		r = irandom_range(1,);
-	} else { 
-		r = irandom_range(1,numberofItems);
-	}
-	
-	if r = 1
-	{
-		makethis = oListed;
-	}	
-	else if r = 2
-	{
-		makethis = oIrrelevant;
-	}
-	else if r = 3
-	{
-		makethis = oPotatoChips;
-	}
-	else if r = 4
-	{
-		makethis = oBanana;
-	}
-	else if r = toiletPaper_id
-	{
-		makethis = oToiletPaper;
-	}
-	*/
-
-
-
-// Toilet Paper code
-/*
-		// Randomly generate id for items
-		if ((!instance_exists(oToiletPaper)) && (!instance_exists(oTPSource)))
-		{
-			r = irandom_range(1,3);
-		} else { 
-			r = irandom_range(1,2);
-		}
 		*/

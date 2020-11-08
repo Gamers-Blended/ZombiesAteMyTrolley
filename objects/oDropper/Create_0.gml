@@ -1,11 +1,13 @@
 /// @description Blank
 
 numberofItems = 1;
-isChipsActive = true;
-isIrrelevantActive = true;
-isBananaActive = false;
-isRiceActive = false;
 baseDropRate = 1; // Number of items per t second
+
+numOfItems = global.isIrrelevantActive + global.isChipsActive + global.isRiceActive + global.isBananaActive;
+for (var i = numOfItems-1; i >= 0; i --) {
+	makethis[i] = oItem;
+}
+
 
 dropRateInterval = 15;
 dropperTimer = 0;
