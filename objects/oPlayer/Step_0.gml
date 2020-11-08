@@ -53,8 +53,13 @@ y = y + vsp;
 
 if (key_left) {
 	dir = 0;
+	// Update facing direction
+	image_xscale = orig_xscale*sign(hsp);
+	
 } else if (key_right) {
 	dir = 1;
+	// Update facing direction
+	image_xscale = orig_xscale*sign(hsp);
 }
 
 // Move player when he has toilet paper protection

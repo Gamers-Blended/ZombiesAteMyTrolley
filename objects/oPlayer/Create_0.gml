@@ -69,3 +69,5 @@ global.inventory_amt = 0;
 
 weight_width = 20;
 weight_height = 10;
+
+orig_xscale = image_xscale;
