@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 26,
-  "bbox_right": 76,
-  "bbox_top": 21,
-  "bbox_bottom": 78,
+  "bbox_left": 0,
+  "bbox_right": 98,
+  "bbox_top": 10,
+  "bbox_bottom": 96,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ffae2152-c014-49c6-b381-9987bcde69cc","path":"sprites/sBanana/sBanana.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ffae2152-c014-49c6-b381-9987bcde69cc","path":"sprites/sBanana/sBanana.yy",},"LayerId":{"name":"2bc91510-eab5-4865-a0da-636098d3d2c1","path":"sprites/sBanana/sBanana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sBanana","path":"sprites/sBanana/sBanana.yy",},"resourceVersion":"1.0","name":"ffae2152-c014-49c6-b381-9987bcde69cc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2dfa507c-2885-48ce-bc6d-2685b49b9f4f","path":"sprites/sPlayerHeavy/sPlayerHeavy.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2dfa507c-2885-48ce-bc6d-2685b49b9f4f","path":"sprites/sPlayerHeavy/sPlayerHeavy.yy",},"LayerId":{"name":"484ede1b-3da8-4303-b2b7-a152fb8378d0","path":"sprites/sPlayerHeavy/sPlayerHeavy.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPlayerHeavy","path":"sprites/sPlayerHeavy/sPlayerHeavy.yy",},"resourceVersion":"1.0","name":"2dfa507c-2885-48ce-bc6d-2685b49b9f4f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sBanana","path":"sprites/sBanana/sBanana.yy",},
+    "spriteId": {"name":"sPlayerHeavy","path":"sprites/sPlayerHeavy/sPlayerHeavy.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"8d9f9401-993d-4b3a-a637-18da730d824c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ffae2152-c014-49c6-b381-9987bcde69cc","path":"sprites/sBanana/sBanana.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3ca202f3-675f-43b0-93bd-e23026edf8bd","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2dfa507c-2885-48ce-bc6d-2685b49b9f4f","path":"sprites/sPlayerHeavy/sPlayerHeavy.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 50,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sBanana","path":"sprites/sBanana/sBanana.yy",},
+    "parent": {"name":"sPlayerHeavy","path":"sprites/sPlayerHeavy/sPlayerHeavy.yy",},
     "resourceVersion": "1.3",
-    "name": "sBanana",
+    "name": "sPlayerHeavy",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"2bc91510-eab5-4865-a0da-636098d3d2c1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"484ede1b-3da8-4303-b2b7-a152fb8378d0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "GameObjects",
     "path": "folders/Sprites/GameObjects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sBanana",
+  "name": "sPlayerHeavy",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 3,
-  "bbox_right": 84,
-  "bbox_top": 1,
-  "bbox_bottom": 48,
+  "bbox_left": 2,
+  "bbox_right": 98,
+  "bbox_top": 20,
+  "bbox_bottom": 76,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 90,
-  "height": 54,
+  "width": 100,
+  "height": 100,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"407aa65b-af6b-46d8-ad3f-844daf23e917","path":"sprites/sEffectBanana/sEffectBanana.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"407aa65b-af6b-46d8-ad3f-844daf23e917","path":"sprites/sEffectBanana/sEffectBanana.yy",},"LayerId":{"name":"7f830336-042a-485e-9b35-5b4684d0caf3","path":"sprites/sEffectBanana/sEffectBanana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sEffectBanana","path":"sprites/sEffectBanana/sEffectBanana.yy",},"resourceVersion":"1.0","name":"407aa65b-af6b-46d8-ad3f-844daf23e917","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d6544d9e-cacd-4016-968a-db226d80a8da","path":"sprites/sEffectBanana/sEffectBanana.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d6544d9e-cacd-4016-968a-db226d80a8da","path":"sprites/sEffectBanana/sEffectBanana.yy",},"LayerId":{"name":"241171d7-0336-4617-80de-d714e9ae32d5","path":"sprites/sEffectBanana/sEffectBanana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sEffectBanana","path":"sprites/sEffectBanana/sEffectBanana.yy",},"resourceVersion":"1.0","name":"d6544d9e-cacd-4016-968a-db226d80a8da","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sEffectBanana","path":"sprites/sEffectBanana/sEffectBanana.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"38304ef1-53b4-47c5-8ac1-5719701f1cea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"407aa65b-af6b-46d8-ad3f-844daf23e917","path":"sprites/sEffectBanana/sEffectBanana.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"ad9902d7-9790-45ec-b340-9e01288ee376","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d6544d9e-cacd-4016-968a-db226d80a8da","path":"sprites/sEffectBanana/sEffectBanana.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,11 +65,11 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7f830336-042a-485e-9b35-5b4684d0caf3","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"241171d7-0336-4617-80de-d714e9ae32d5","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GameObjects",
+    "path": "folders/Sprites/GameObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "sEffectBanana",

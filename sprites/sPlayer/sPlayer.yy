@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e16ee699-e711-4858-b6cc-20529b42b913","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GameObjects",
+    "path": "folders/Sprites/GameObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlayer",

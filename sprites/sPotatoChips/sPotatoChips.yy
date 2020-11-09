@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ff8805f0-549d-44a0-bd93-52693d008f12","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GameObjects",
+    "path": "folders/Sprites/GameObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPotatoChips",

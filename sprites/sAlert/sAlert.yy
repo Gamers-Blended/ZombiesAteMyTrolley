@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"151e9b9f-5df1-4dd8-8bb8-26b7b33255bc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "GameObjects",
+    "path": "folders/Sprites/GameObjects.yy",
   },
   "resourceVersion": "1.0",
   "name": "sAlert",

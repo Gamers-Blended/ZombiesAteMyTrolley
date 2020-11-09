@@ -95,7 +95,21 @@ if (flashAlpha > 0){
 	flashAlpha -= 0.05;
 }
 
+// Sprite will rotate based on horizontal movement
 image_xscale = orig_xscale*sign(face_dir);
+
+// Too much items
+if (global.inventory_amt >= 5)
+{
+	sprite_index = sPlayerHeavy;
+	image_speed = 0;
+}
+else
+{
+	sprite_index = sPlayer;
+	image_speed = 1;
+}
+
 /*
 
 /// @description Player Movement
