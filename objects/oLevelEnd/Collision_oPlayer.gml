@@ -25,11 +25,11 @@ else
 		
 with (oPlayer)
 {
-	if (levelcleared) and (global.level != 10)
+	if (levelcleared) and (global.level != 15)
 	{
 		room_goto_next();
 	}
-	else if (levelcleared) and (global.level == 10)
+	else if (levelcleared) and (global.level == 15)
 	{
 		room_goto(Clear);
 	}

@@ -88,7 +88,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "path": "folders/Rooms/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "ABigRoom",

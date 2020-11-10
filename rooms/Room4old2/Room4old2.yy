@@ -109,8 +109,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "Old Rooms",
+    "path": "folders/Rooms/Old Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "Room4old2",
