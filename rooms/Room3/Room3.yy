@@ -94,7 +94,7 @@
   },
   "parent": {
     "name": "Rooms",
-    "path": "folders/Rooms/Rooms.yy",
+    "path": "folders/Sequences/Rooms.yy",
   },
   "resourceVersion": "1.0",
   "name": "Room3",
