@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"6b18b639-5db4-419f-b3f1-8778e388100d","path":"sprites/sPotatoChips/sPotatoChips.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6b18b639-5db4-419f-b3f1-8778e388100d","path":"sprites/sPotatoChips/sPotatoChips.yy",},"LayerId":{"name":"ff8805f0-549d-44a0-bd93-52693d008f12","path":"sprites/sPotatoChips/sPotatoChips.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPotatoChips","path":"sprites/sPotatoChips/sPotatoChips.yy",},"resourceVersion":"1.0","name":"6b18b639-5db4-419f-b3f1-8778e388100d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"8d74748a-69d3-47df-b0fd-e44a38aab1fe","path":"sprites/sPotatoChips/sPotatoChips.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"8d74748a-69d3-47df-b0fd-e44a38aab1fe","path":"sprites/sPotatoChips/sPotatoChips.yy",},"LayerId":{"name":"cb75a300-3632-4810-8872-540e6dfde049","path":"sprites/sPotatoChips/sPotatoChips.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sPotatoChips","path":"sprites/sPotatoChips/sPotatoChips.yy",},"resourceVersion":"1.0","name":"8d74748a-69d3-47df-b0fd-e44a38aab1fe","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sPotatoChips","path":"sprites/sPotatoChips/sPotatoChips.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2e1157c9-ca81-4d65-bf6a-e74d5aeea2bc","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6b18b639-5db4-419f-b3f1-8778e388100d","path":"sprites/sPotatoChips/sPotatoChips.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"6e3d7376-0e86-4571-bc64-83e6e0063e93","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8d74748a-69d3-47df-b0fd-e44a38aab1fe","path":"sprites/sPotatoChips/sPotatoChips.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ff8805f0-549d-44a0-bd93-52693d008f12","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"cb75a300-3632-4810-8872-540e6dfde049","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "GameObjects",
