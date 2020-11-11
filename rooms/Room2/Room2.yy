@@ -32,7 +32,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_375F7CAD","path":"rooms/ASmallRoom/ASmallRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":256.0,"resourceVersion":"1.0","name":"inst_375F7CAD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oLabel","path":"objects/oLabel/oLabel.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":7.0,"scaleY":7.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_738ECE54","path":"rooms/ASmallRoom/ASmallRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":416.0,"y":32.0,"resourceVersion":"1.0","name":"inst_738ECE54","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"instances":[],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
+    {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"oZombie1","path":"objects/oZombie1/oZombie1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1504.0,"y":896.0,"resourceVersion":"1.0","name":"inst_3C8327DE","tags":[],"resourceType":"GMRInstance",},
+      ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oDepositZone","path":"objects/oDepositZone/oDepositZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.585492253,"scaleY":0.5897436,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_25076CDD","path":"rooms/ASmallRoom/ASmallRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":512.0,"resourceVersion":"1.0","name":"inst_25076CDD","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"oGround","path":"objects/oGround/oGround.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":38.0,"scaleY":0.5,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_65020465","path":"rooms/ASmallRoom/ASmallRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":0.0,"y":960.0,"resourceVersion":"1.0","name":"inst_65020465","tags":[],"resourceType":"GMRInstance",},
@@ -67,6 +69,7 @@
     {"name":"inst_25BC6AD7","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_40E60CF","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_7B998A6B","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_3C8327DE","path":"rooms/Room2/Room2.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
@@ -90,8 +93,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Sequences/Rooms.yy",
+    "name": "Levels",
+    "path": "folders/Rooms/Levels.yy",
   },
   "resourceVersion": "1.0",
   "name": "Room2",

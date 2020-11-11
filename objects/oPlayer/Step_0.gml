@@ -24,6 +24,7 @@ if (!isTeleporting) {
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -jumpsp + ver_item_drag;
+	audio_play_sound(snd_menu_switch, 1, false);
 }
 
 // Horizontal collision

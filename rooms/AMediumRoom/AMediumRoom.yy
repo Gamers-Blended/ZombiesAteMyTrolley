@@ -87,8 +87,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Sequences/Rooms.yy",
+    "name": "Levels",
+    "path": "folders/Rooms/Levels.yy",
   },
   "resourceVersion": "1.0",
   "name": "AMediumRoom",
