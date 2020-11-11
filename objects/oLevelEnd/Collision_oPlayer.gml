@@ -27,6 +27,7 @@ with (oPlayer)
 {
 	if (levelcleared) and (global.level != 15)
 	{
+		audio_play_sound(Level_Transition, 1, false);
 		room_goto_next();
 	}
 	else if (levelcleared) and (global.level == 15)

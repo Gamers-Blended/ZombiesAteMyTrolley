@@ -14,6 +14,7 @@ if (global.inventory_amt < max_inventory_size) {
 	}
 	
 	global.inventory_amt += 1;
+	audio_play_sound(Collect_Item_short, 1, false);
 }
 
 // Items disappear upon collection

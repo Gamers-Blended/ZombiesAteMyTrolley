@@ -24,7 +24,7 @@ if (!isTeleporting) {
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -jumpsp + ver_item_drag;
-	audio_play_sound(snd_menu_switch, 1, false);
+	audio_play_sound(Jump_short, 1, false);
 }
 
 // Horizontal collision
@@ -86,6 +86,7 @@ if (inTime > 0) {
 	// Adjust position here!
 	x = oDepositZone.x-10;
 	y = oDepositZone.y-50;
+	audio_play_sound(Teleport_short, 1, false);
 	// Flash effect
 	flashAlpha = 1;
 	// Reset undo timer is done in oGame
