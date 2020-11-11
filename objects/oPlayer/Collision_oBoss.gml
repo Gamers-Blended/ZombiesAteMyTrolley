@@ -6,6 +6,7 @@ if (!isInvulnerable) {
 	image_alpha = 0.5;
 	isInvulnerable = true;
 	alarm[0] = invulnerable_duration;
+	audio_play_sound(Zombie_short2, 1, false);
 	
 	// Toilet Paper Teleportation
 	if (hasTP) {

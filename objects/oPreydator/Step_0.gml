@@ -17,7 +17,11 @@ switch (state)
 		image_speed = hsp/3;
 		vsp = (min(7,vsp+0.05));
 		// inside aggro range (Adjust range here!)
-		if (distance_to_object(oPlayer) < trigger_dist) state = e_state.chase;
+		if (distance_to_object(oPlayer) < trigger_dist)
+		{
+			audio_play_sound(Zombie_short, 1, false);
+			state = e_state.chase;
+		}
 	}
 	break;
 	

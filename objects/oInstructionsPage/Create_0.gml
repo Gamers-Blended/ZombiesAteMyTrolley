@@ -8,9 +8,10 @@ instr_image_h = 450;
 button_h_gap = 200;
 
 // buttons
-button[0] = "Back";
-button[1] = "Next";
+button[0] = "Back Page";
+button[1] = "Next Page";
 buttons = array_length_1d(button);
+returnButton = "Close Instructions";
 
 // debouncing
 isPressable = false;

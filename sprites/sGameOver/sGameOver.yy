@@ -24,9 +24,9 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b8d89494-1ea8-4875-b26e-b0a7aafc5daf","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8d89494-1ea8-4875-b26e-b0a7aafc5daf","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":{"name":"f8837177-6262-4b69-98ba-3f4222ade09d","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"b8d89494-1ea8-4875-b26e-b0a7aafc5daf","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e8e4d5c2-832e-480c-94cf-a6bb7ab975ea","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e8e4d5c2-832e-480c-94cf-a6bb7ab975ea","path":"sprites/sGameOver/sGameOver.yy",},"LayerId":{"name":"d0b1784d-d496-408d-85a2-92b9ef43d1dc","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","name":"e8e4d5c2-832e-480c-94cf-a6bb7ab975ea","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sGameOver","path":"sprites/sGameOver/sGameOver.yy",},
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"4cd92f7d-4326-41a5-85ea-4aec4dc6283f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8d89494-1ea8-4875-b26e-b0a7aafc5daf","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"edde2c11-8e29-4fe5-9ee1-bc8dbda0e7aa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e8e4d5c2-832e-480c-94cf-a6bb7ab975ea","path":"sprites/sGameOver/sGameOver.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -65,7 +65,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"f8837177-6262-4b69-98ba-3f4222ade09d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d0b1784d-d496-408d-85a2-92b9ef43d1dc","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Menus",
