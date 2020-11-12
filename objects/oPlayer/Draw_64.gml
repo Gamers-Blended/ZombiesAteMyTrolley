@@ -36,9 +36,19 @@ if (shouldShowInventory) {
 
 
 // Inventory Bar border
-draw_sprite(sInventoryBorder,0,x-30,y-80);
+if (face_dir == 1) {
+	draw_sprite(sInventoryBorder,0,x-sprite_width/2,y-80);
+} else {
+	draw_sprite(sInventoryBorder,0,x+sprite_width/2,y-80);
+}
+	
+	
 // Bars
 for (var i = 0; i < global.inventory_amt; i++)
 {
-	draw_sprite(sInventory,0,x-30+15*i,y-80);
+	if (face_dir == 1) {
+		draw_sprite(sInventory,0,x-sprite_width/2+15*i,y-80);
+	} else {
+		draw_sprite(sInventory,0,x+sprite_width/2+15*i,y-80);
+	}
 }
