@@ -55,3 +55,10 @@ time_height = 36;
 time_x = (2500/2) - (time_width/2);
 //time_x = (2500/2) - (time_width/2); // middle
 time_y = 20;
+
+//bgm = BGM;
+
+// Play BGM
+if (!audio_is_playing(BGM)) {
+	audio_play_sound(BGM, 1, true);
+}

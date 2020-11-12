@@ -5,6 +5,7 @@ if (is_in_menu && isPressable) {
 		case 0:
 			// Resume
 			oGame.paused = false;
+			audio_resume_sound(BGM);
 			
 			// oGame Stuff
 			instance_activate_all();

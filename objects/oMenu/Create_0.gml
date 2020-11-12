@@ -21,3 +21,7 @@ is_in_menu = true;
 isPressable = false;
 buttonDelay = 20;
 alarm[0] = buttonDelay;
+
+if (audio_is_playing(BGM)) {
+	audio_stop_sound(BGM);	
+}

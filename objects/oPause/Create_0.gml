@@ -23,3 +23,5 @@ is_in_menu = true;
 isPressable = false;
 buttonDelay = 20;
 alarm[0] = buttonDelay;
+
+audio_pause_sound(BGM);
