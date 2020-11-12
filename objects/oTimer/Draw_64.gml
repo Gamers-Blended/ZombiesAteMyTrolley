@@ -14,5 +14,5 @@ if (isAlive) {
 	draw_set_font(FontTime2);
 	draw_set_color(c_black);
 	//draw_text(x-55,y,string(global.myTime))
-	draw_text(x,y,string(global.myTime))
+	draw_text(x,y-20,string(global.myTime))
 }

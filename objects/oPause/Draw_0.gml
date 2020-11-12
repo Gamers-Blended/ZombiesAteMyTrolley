@@ -3,7 +3,6 @@
 
 // Draw Background
 draw_set_color(c_black);
-//draw_rectangle(0, 0, room_width, room_height, false);
 draw_sprite(sPause, 0,room_width/2,room_height/2);
 
 // Draw title

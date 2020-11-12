@@ -50,11 +50,15 @@ isAlive = true;
 inTime_max = 10;
 inTime = inTime_max;
 
-time_width = 500;
-time_height = 36;
-time_x = (2500/2) - (time_width/2);
-//time_x = (2500/2) - (time_width/2); // middle
-time_y = 20;
+time_width = sprite_get_width(sBorder);
+time_height = sprite_get_height(sBorder);
+time_x = (room_width/2);
+time_y = 50;
+timer_margin = 30;
+
+bar_width = time_width - timer_margin;
+bar_x = time_x-bar_width/2;
+bar_y = time_y*3/4;
 
 //bgm = BGM;
 

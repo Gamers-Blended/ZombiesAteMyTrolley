@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Draw Images
-draw_sprite(sprite, 0, x, y);
+draw_sprite(sprite, 0, room_width/2, room_height/2);
 
 // Draw text
 draw_set_font(font_main_menu);

@@ -5,4 +5,4 @@
 event_inherited();
 
 button = "Back";
-sprite = sCredits;
+sprite = sEnd;

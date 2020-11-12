@@ -15,3 +15,5 @@ shake_magnitude = 0;
 shake_remain = 0;
 //buff = 32;
 buff = 20;
+
+surface_resize(application_surface, room_width, room_height);

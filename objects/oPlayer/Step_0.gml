@@ -85,7 +85,7 @@ if (inTime > 0) {
 } else if (inTime == 0) {
 	// Adjust position here!
 	x = oDepositZone.x-10;
-	y = oDepositZone.y-50;
+	y = oDepositZone.y-30;
 	audio_play_sound(Teleport_short, 1, false);
 	// Flash effect
 	flashAlpha = 1;
