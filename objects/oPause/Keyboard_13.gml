@@ -18,6 +18,7 @@ if (is_in_menu && isPressable) {
 			is_in_menu = false;
 			break;
 		case 2:
+			audio_stop_sound(BGM);
 			room_goto(Menu);
 			break;
 	}
