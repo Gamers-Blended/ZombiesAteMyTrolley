@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 if (is_in_menu && isPressable) {
+	audio_play_sound(menuEnter, 1, false);
+	
 	switch(menu_index) {
 		case 0:
 			//room_goto(Instruction1);

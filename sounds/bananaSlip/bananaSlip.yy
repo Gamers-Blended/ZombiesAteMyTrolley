@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_menu_switch.mp3",
-  "duration": 0.5797,
+  "soundFile": "bananaSlip.wav",
+  "duration": 1.005,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_menu_switch",
+  "name": "bananaSlip",
   "tags": [],
   "resourceType": "GMSound",
 }
