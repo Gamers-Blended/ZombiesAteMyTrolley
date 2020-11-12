@@ -4,7 +4,7 @@
 menu_x = x;
 menu_y = y;
 button_w_gap = 1000;
-instr_image_h = 450;
+instr_image_h = 400;
 button_h_gap = 200;
 
 // buttons
