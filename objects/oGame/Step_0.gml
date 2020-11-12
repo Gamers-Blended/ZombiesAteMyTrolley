@@ -29,3 +29,11 @@ if (inTime > 0 && !paused) {
 	// Reset time bar
 	inTime = inTime_max;
 }
+
+// BGM
+if (!audio_is_playing(BGM_fast)) {
+	if (global.myTime < 30) {
+		audio_stop_sound(BGM);
+		audio_play_sound(BGM_fast, 1000, true);
+	}
+}

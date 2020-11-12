@@ -5,7 +5,15 @@ if (is_in_menu && isPressable) {
 		case 0:
 			// Resume
 			oGame.paused = false;
+			
+			//if (audio_is_paused(BGM)) {
+		//		audio_resume_sound(BGM);
+		//	} else if (audio_is_paused(BGM_fast)) {
+		//		audio_resume_sound(BGM_fast);
+		//	}
+			
 			audio_resume_sound(BGM);
+			audio_resume_sound(BGM_fast);
 			
 			// oGame Stuff
 			instance_activate_all();

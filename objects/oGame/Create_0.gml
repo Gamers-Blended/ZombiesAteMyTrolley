@@ -62,3 +62,8 @@ time_y = 20;
 if (!audio_is_playing(BGM)) {
 	audio_play_sound(BGM, 1, true);
 }
+
+// Stop fast BGM
+if (audio_is_playing(BGM_fast)) {
+	audio_stop_sound(BGM_fast);
+}

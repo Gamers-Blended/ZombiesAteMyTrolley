@@ -20,3 +20,10 @@ last_selected = 0;
 isPressable = false;
 buttonDelay = 20;
 alarm[0] = buttonDelay;
+
+if (audio_is_playing(BGM)) {
+	audio_stop_sound(BGM);	
+}
+if (audio_is_playing(BGM_fast)) {
+	audio_stop_sound(BGM_fast);
+}
