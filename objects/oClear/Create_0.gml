@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-button = "Back";
+button = "Back to Main Menu :)";
 sprite = sEnd;
