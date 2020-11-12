@@ -24,6 +24,7 @@
     {"id":{"name":"InstructionsPage","path":"rooms/InstructionsPage/InstructionsPage.yy",},"order":2,},
     {"id":{"name":"Jump_long_1_","path":"sounds/Jump_long_1_/Jump_long_1_.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":8,},
+    {"id":{"name":"sStun","path":"sprites/sStun/sStun.yy",},"order":15,},
     {"id":{"name":"Rice_veryshort","path":"sounds/Rice_veryshort/Rice_veryshort.yy",},"order":14,},
     {"id":{"name":"oListed","path":"objects/oListed/oListed.yy",},"order":7,},
     {"id":{"name":"oEffectBanana","path":"objects/oEffectBanana/oEffectBanana.yy",},"order":8,},

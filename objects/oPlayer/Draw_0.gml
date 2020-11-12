@@ -1,6 +1,7 @@
 /// @description Draw inventory to screen
 // You can write your code in this editor
-draw_self();
+
+event_inherited();
 
 //Flash
 if (flashAlpha > 0){

@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+draw_self();
 
-is_stunned = true;
-alarm[11] = banana_stun_duration;
+if (is_stunned)
+{
+	draw_sprite(sStun,1,x,y-80);
+}
