@@ -6,7 +6,7 @@ if (is_in_menu && isPressable) {
 	switch(menu_index) {
 		case 0:
 			//room_goto(Instruction1);
-			room_goto(Room1);
+			room_goto(NewItemChips);
 			break;
 		case 1:
 			//room_goto(InstructionsPage);

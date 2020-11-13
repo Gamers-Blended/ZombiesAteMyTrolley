@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","path":"sprites/sInstrBanana/sInstrBanana.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","path":"sprites/sInstrBanana/sInstrBanana.yy",},"LayerId":{"name":"264fc5cd-6267-4d7f-bbee-3529680579cf","path":"sprites/sInstrBanana/sInstrBanana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sInstrBanana","path":"sprites/sInstrBanana/sInstrBanana.yy",},"resourceVersion":"1.0","name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"c0899520-a71f-444f-a8c7-e8191b1a1722","path":"sprites/sInstrChips/sInstrChips.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"c0899520-a71f-444f-a8c7-e8191b1a1722","path":"sprites/sInstrChips/sInstrChips.yy",},"LayerId":{"name":"e917f18c-16ad-45df-8dab-d0dd32819e91","path":"sprites/sInstrChips/sInstrChips.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sInstrChips","path":"sprites/sInstrChips/sInstrChips.yy",},"resourceVersion":"1.0","name":"c0899520-a71f-444f-a8c7-e8191b1a1722","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sInstrBanana","path":"sprites/sInstrBanana/sInstrBanana.yy",},
+    "spriteId": {"name":"sInstrChips","path":"sprites/sInstrChips/sInstrChips.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"dd208cee-bbf4-4f9f-9698-de8505c9ab14","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","path":"sprites/sInstrBanana/sInstrBanana.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"56035b71-8806-40cb-b64f-432d8bdc687c","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c0899520-a71f-444f-a8c7-e8191b1a1722","path":"sprites/sInstrChips/sInstrChips.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 500,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sInstrBanana","path":"sprites/sInstrBanana/sInstrBanana.yy",},
+    "parent": {"name":"sInstrChips","path":"sprites/sInstrChips/sInstrChips.yy",},
     "resourceVersion": "1.3",
-    "name": "sInstrBanana",
+    "name": "sInstrChips",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"264fc5cd-6267-4d7f-bbee-3529680579cf","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e917f18c-16ad-45df-8dab-d0dd32819e91","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Menus",
     "path": "folders/Sprites/Menus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sInstrBanana",
+  "name": "sInstrChips",
   "tags": [],
   "resourceType": "GMSprite",
 }

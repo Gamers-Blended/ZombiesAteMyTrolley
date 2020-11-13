@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","path":"sprites/sInstrBanana/sInstrBanana.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","path":"sprites/sInstrBanana/sInstrBanana.yy",},"LayerId":{"name":"264fc5cd-6267-4d7f-bbee-3529680579cf","path":"sprites/sInstrBanana/sInstrBanana.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sInstrBanana","path":"sprites/sInstrBanana/sInstrBanana.yy",},"resourceVersion":"1.0","name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ab7dc82f-c88a-4eb1-afcd-6f98ea06a27d","path":"sprites/sInstrBoss/sInstrBoss.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ab7dc82f-c88a-4eb1-afcd-6f98ea06a27d","path":"sprites/sInstrBoss/sInstrBoss.yy",},"LayerId":{"name":"868bc50c-0c10-477e-87d8-ef2caba3d8ac","path":"sprites/sInstrBoss/sInstrBoss.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sInstrBoss","path":"sprites/sInstrBoss/sInstrBoss.yy",},"resourceVersion":"1.0","name":"ab7dc82f-c88a-4eb1-afcd-6f98ea06a27d","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sInstrBanana","path":"sprites/sInstrBanana/sInstrBanana.yy",},
+    "spriteId": {"name":"sInstrBoss","path":"sprites/sInstrBoss/sInstrBoss.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"dd208cee-bbf4-4f9f-9698-de8505c9ab14","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7f318507-b6e3-4629-aa1d-32e0b309eba9","path":"sprites/sInstrBanana/sInstrBanana.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3f147cbd-13d1-4805-b9ff-edb7a5a921b0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ab7dc82f-c88a-4eb1-afcd-6f98ea06a27d","path":"sprites/sInstrBoss/sInstrBoss.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 500,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sInstrBanana","path":"sprites/sInstrBanana/sInstrBanana.yy",},
+    "parent": {"name":"sInstrBoss","path":"sprites/sInstrBoss/sInstrBoss.yy",},
     "resourceVersion": "1.3",
-    "name": "sInstrBanana",
+    "name": "sInstrBoss",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"264fc5cd-6267-4d7f-bbee-3529680579cf","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"868bc50c-0c10-477e-87d8-ef2caba3d8ac","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Menus",
     "path": "folders/Sprites/Menus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sInstrBanana",
+  "name": "sInstrBoss",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -38,7 +38,7 @@ switch (state)
 			image_xscale = orig_xscale*sign(hsp);
 			// outside aggro range
 			//if (distance_to_object(oPlayer) > 165) state = e_state.idle;
-			if (distance_to_object(oPlayer) > 400) state = e_state.goback;
+			if (distance_to_object(oPlayer) > trigger_dist) state = e_state.goback;
 		}
 		else
 		{

@@ -60,6 +60,8 @@ bar_width = time_width - timer_margin;
 bar_x = time_x-bar_width/2;
 bar_y = time_y*3/4;
 
+clock_displacement = time_width + sprite_get_width(sClock)/2;
+
 //bgm = BGM;
 
 // Play BGM
