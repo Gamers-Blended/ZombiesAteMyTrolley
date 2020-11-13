@@ -1,3 +1,3 @@
-/// @description Skip to next level
+///// @description Skip to next level
 
-room_goto_next();
+//room_goto_next();

@@ -1,3 +1,3 @@
-/// @description Skip to Last level (for testing)
+///// @description Skip to Last level (for testing)
 
-SlideTransition(TRANS_MODE.GOTO, Room10);
+//SlideTransition(TRANS_MODE.GOTO, Room10);
