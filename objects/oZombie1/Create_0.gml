@@ -6,8 +6,10 @@ vsp = 0; // vertical speed
 walksp = 9;
 switch (global.level) {
 	case 2:
-	case 3:
 		walksp = 7;
+		break;
+	case 3:
+		walksp = 11;
 		break;
 	case 8:
 	case 9:

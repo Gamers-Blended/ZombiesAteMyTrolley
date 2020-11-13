@@ -159,6 +159,7 @@
     {"id":{"name":"Clear","path":"rooms/Clear/Clear.yy",},"order":28,},
     {"id":{"name":"sTimerBox","path":"sprites/sTimerBox/sTimerBox.yy",},"order":4,},
     {"id":{"name":"oNewMilk","path":"objects/oNewMilk/oNewMilk.yy",},"order":11,},
+    {"id":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},"order":29,},
     {"id":{"name":"oClear","path":"objects/oClear/oClear.yy",},"order":7,},
     {"id":{"name":"menuEnter","path":"sounds/menuEnter/menuEnter.yy",},"order":18,},
     {"id":{"name":"Jump_short","path":"sounds/Jump_short/Jump_short.yy",},"order":4,},
@@ -213,6 +214,7 @@
     {"name":"oldRoom13","path":"rooms/oldRoom13/oldRoom13.yy",},
     {"name":"AMediumBigRoom","path":"rooms/AMediumBigRoom/AMediumBigRoom.yy",},
     {"name":"NewItemMilk","path":"rooms/NewItemMilk/NewItemMilk.yy",},
+    {"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

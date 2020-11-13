@@ -6,7 +6,7 @@
     "path": "rooms/ASmallRoom/ASmallRoom.yy",
   },
   "views": [
-    {"inherit":true,"visible":true,"xview":0,"yview":0,"wview":2500,"hview":1000,"xport":0,"yport":-20,"wport":2500,"hport":1000,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
+    {"inherit":true,"visible":true,"xview":0,"yview":0,"wview":2500,"hview":1000,"xport":-10,"yport":-10,"wport":2500,"hport":1000,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
     {"inherit":true,"visible":false,"xview":0,"yview":0,"wview":1366,"hview":768,"xport":0,"yport":0,"wport":1366,"hport":768,"hborder":32,"vborder":32,"hspeed":-1,"vspeed":-1,"objectId":null,},
@@ -34,7 +34,7 @@
       ],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oZombie1","path":"objects/oZombie1/oZombie1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1088.0,"y":864.0,"resourceVersion":"1.0","name":"inst_5C0203FF","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"oZombie1","path":"objects/oZombie1/oZombie1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1664.0,"y":864.0,"resourceVersion":"1.0","name":"inst_63AD2D60","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"oZombie1","path":"objects/oZombie1/oZombie1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1184.0,"y":864.0,"resourceVersion":"1.0","name":"inst_5EE37A07","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Enemies","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"oDepositZone","path":"objects/oDepositZone/oDepositZone.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.585492253,"scaleY":0.5897436,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":{"name":"inst_25076CDD","path":"rooms/ASmallRoom/ASmallRoom.yy",},"frozen":false,"ignore":false,"inheritItemSettings":false,"x":576.0,"y":512.0,"resourceVersion":"1.0","name":"inst_25076CDD","tags":[],"resourceType":"GMRInstance",},
@@ -71,7 +71,7 @@
     {"name":"inst_40E60CF","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_7B998A6B","path":"rooms/Room3/Room3.yy",},
     {"name":"inst_5C0203FF","path":"rooms/Room3/Room3.yy",},
-    {"name":"inst_63AD2D60","path":"rooms/Room3/Room3.yy",},
+    {"name":"inst_5EE37A07","path":"rooms/Room3/Room3.yy",},
   ],
   "inheritCreationOrder": true,
   "sequenceId": null,
