@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-menu_x = x;
+//menu_x = x;
+menu_x = room_width/2;
 menu_y = y;
 button_w_gap = 1000;
 instr_image_h = 400;
