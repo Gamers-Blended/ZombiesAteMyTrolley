@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "BGM_BOSS_FAST.wav",
-  "duration": 31.9092178,
+  "duration": 11.9690819,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
