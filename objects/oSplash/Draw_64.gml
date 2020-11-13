@@ -8,3 +8,4 @@ draw_set_color(c_red);
 	
 draw_text(menu_x, menu_y, "Press ENTER To continue!");
 
+draw_text(menu_x, menu_y+80, "Note: This game uses keyboard controls!");
