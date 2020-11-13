@@ -31,9 +31,14 @@ if (inTime > 0 && !paused) {
 }
 
 // BGM
-if (!audio_is_playing(BGM_fast)) {
+if (global.level != 13 && !audio_is_playing(BGM_fast)) {
 	if (global.myTime < 30) {
 		audio_stop_sound(BGM);
 		audio_play_sound(BGM_fast, 1000, true);
+	}
+} else if (global.level == 13 && !audio_is_playing(BGM_BOSS_FAST)) {
+	if (global.myTime < 30) {
+		audio_stop_sound(BGM_BOSS);
+		audio_play_sound(BGM_BOSS_FAST, 1000, true);
 	}
 }

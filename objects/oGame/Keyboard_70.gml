@@ -1,3 +1,3 @@
 /// @description Set timer to 30
 // You can write your code in this editor
-global.myTime = 50;
+global.myTime = 30;

@@ -15,6 +15,8 @@ if (is_in_menu && isPressable) {
 			
 			audio_resume_sound(BGM);
 			audio_resume_sound(BGM_fast);
+			audio_resume_sound(BGM_BOSS);
+			audio_resume_sound(BGM_BOSS_FAST);
 			
 			// oGame Stuff
 			instance_activate_all();

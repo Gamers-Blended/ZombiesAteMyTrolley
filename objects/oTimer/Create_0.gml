@@ -20,9 +20,10 @@ switch(global.level) {
 		mins = 2;
 		break;
 	case 12:
+	case 13:
 		mins = 2.5;
 		break;
-	case 13:
+	case 14:
 		mins = 3;
 		break;
 }

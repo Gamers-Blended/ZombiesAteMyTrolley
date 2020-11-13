@@ -64,12 +64,24 @@ clock_displacement = time_width + sprite_get_width(sClock)/2;
 
 //bgm = BGM;
 
-// Play BGM
-if (!audio_is_playing(BGM)) {
-	audio_play_sound(BGM, 1, true);
-}
+if (global.level != 13) {
+	// Play BGM
+	if (!audio_is_playing(BGM)) {
+		audio_play_sound(BGM, 1, true);
+	}
 
-// Stop fast BGM
-if (audio_is_playing(BGM_fast)) {
-	audio_stop_sound(BGM_fast);
+	// Stop fast BGM
+	if (audio_is_playing(BGM_fast)) {
+		audio_stop_sound(BGM_fast);
+	}
+} else {
+	// Play BGM
+	if (!audio_is_playing(BGM_BOSS)) {
+		audio_play_sound(BGM_BOSS, 1, true);
+	}
+	
+	// Stop fast BGM
+	if (audio_is_playing(BGM_BOSS_FAST)) {
+		audio_stop_sound(BGM_BOSS_FAST);
+	}
 }

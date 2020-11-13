@@ -27,3 +27,13 @@ if (audio_is_playing(BGM)) {
 if (audio_is_playing(BGM_fast)) {
 	audio_stop_sound(BGM_fast);
 }
+
+// Stop Boss BGM
+if (audio_is_playing(BGM_BOSS)) {
+	audio_stop_sound(BGM_BOSS);
+}
+
+// Stop Boss fast BGM
+if (audio_is_playing(BGM_BOSS_FAST)) {
+	audio_stop_sound(BGM_BOSS_FAST);
+}

@@ -10,13 +10,24 @@ dropRate = baseDropRate;
 dropRateMultiplier = 1;
 //new_width = sprite_width * image_xscale;
 
-if (global.myTime <= 30)
-{
-	dropRate = 10;
-}
-else
-{
-	dropRate = 5;
+if (global.level != 13) {
+	if (global.myTime <= 30)
+	{
+		dropRate = 10;
+	}
+	else
+	{
+		dropRate = 5;
+	}
+} else {
+	if (global.myTime <= 60)
+	{
+		dropRate = 10;
+	}
+	else
+	{
+		dropRate = 5;
+	}
 }
 
 num = irandom_range(1,100);

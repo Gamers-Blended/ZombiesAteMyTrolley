@@ -10,4 +10,4 @@ if (value != 13) {
 	draw_text(x,y-10,"FINAL STAGE");
 }
 draw_text(x+1400,y-10,"Press ESC to Pause!");
-draw_text(x+1400,y-50,"Press R to Restart!");
+draw_text(x+1400,y+20,"Press R to Restart!");

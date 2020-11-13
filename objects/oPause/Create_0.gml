@@ -26,3 +26,5 @@ alarm[0] = buttonDelay;
 
 audio_pause_sound(BGM);
 audio_pause_sound(BGM_fast);
+audio_pause_sound(BGM_BOSS);
+audio_pause_sound(BGM_BOSS_FAST);
