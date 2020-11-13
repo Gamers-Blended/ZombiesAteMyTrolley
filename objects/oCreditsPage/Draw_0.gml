@@ -8,25 +8,14 @@ draw_rectangle(0, 0, room_width, room_height, false);
 // Draw Images
 switch(page_index) {
   case 0:
-    draw_sprite(sCredits, 0, x, y);
+    draw_sprite(sCredits, 0, menu_x, menu_y);
     break;
   case 1:
-    draw_sprite(sCredits2, 0, x, y);
+    draw_sprite(sCredits2, 0, menu_x, menu_y);
     break;
-  //case 2:
-  //  draw_sprite(sInstrNotes, 0, x, y);
-  //  break;
 }
 
 // Draw text
-
-// On last page, don't have 'next' option
-/*if (page_index == 2) {
-  buttons = 1;
-} else {
-  buttons = array_length_1d(button);
-}*/
-
 var i = 0;
 repeat(buttons) {
   draw_set_font(font_main_menu);

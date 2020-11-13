@@ -27,7 +27,7 @@ if (isPressable) {
   
     // next OR return to menu
     case 1:
-      if (page_index == 2) {
+      if (page_index == 4) {
         // Return control to menu parent
         // Note that it is assumed you can only enter instructions from 
         // Main Menu or Pause screen. Hence these objects NEED to have

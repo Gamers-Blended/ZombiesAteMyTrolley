@@ -2,9 +2,6 @@
 // NOTE: Room speed is at 60, so step runs 60 times a second.
 //       This means that irandom_range will check 60 times each second.
 
-
-
-
 // Drop rate
 dropRate = baseDropRate;
 dropRateMultiplier = 1;
