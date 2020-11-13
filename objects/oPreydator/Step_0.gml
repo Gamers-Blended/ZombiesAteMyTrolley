@@ -36,6 +36,11 @@ switch (state)
 			vsp = (min(7,vsp+0.05));
 			// Update facing direction
 			image_xscale = orig_xscale*sign(hsp);
+			
+			if image_xscale == 0
+			{
+				image_xscale = 1;
+			}
 			// outside aggro range
 			//if (distance_to_object(oPlayer) > 165) state = e_state.idle;
 			if (distance_to_object(oPlayer) > trigger_dist) state = e_state.goback;
